@@ -1,0 +1,166 @@
+Paper ID,Hypothesis ID,Measured Effect (main category),User Characteristic,Characteristic Category,Effect found?,if correlation: positive or negative,Explanation ID Associated,Related User Study ID,Domain,Modality,Explainability Type ,Recommender Type
+33,33.007,perceived explanation quality,need for cognition,personality,yes,-,33.02,33.1,music,hybrid,post-hoc,content-based
+41,41.013,transparency,need for cognition,personality,no,-,-,"41.1, 41.2, 41.3, 41.4",health,textual,-,-
+41,41.014,transparency,need for cognition,personality,yes,-,-,"41.1, 41.2, 41.3, 41.4",health,textual,-,-
+61,61.002,efficiency,need for cognition,personality,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.012,persuasiveness,need for cognition,personality,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.015,effectiveness,need for cognition,personality,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.018,trust,need for cognition,personality,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.021,Usability/UX,need for cognition,personality,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.024,transparency,need for cognition,personality,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.004,efficiency,visualization literacy,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.032,persuasiveness,visualization literacy,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.035,effectiveness,visualization literacy,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.038,trust,visualization literacy,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.041,Usability/UX,visualization literacy,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.044,transparency,visualization literacy,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.047,Usability/UX,visualization literacy,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.005,Usability/UX,personal innovativeness,personality,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.052,persuasiveness,personal innovativeness,personality,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.055,trust,personal innovativeness,personality,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.058,transparency,personal innovativeness,personality,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.006,Usability/UX,personal innovativeness,personality,yes,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.063,effectiveness,personal innovativeness,personality,yes,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.066,efficiency,personal innovativeness,personality,yes,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.007,efficiency,technical expertise,experience,yes,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.008,Usability/UX,technical expertise,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.073,persuasiveness,technical expertise,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.076,effectiveness,technical expertise,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.079,trust,technical expertise,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.082,Usability/UX,technical expertise,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+61,61.085,transparency,technical expertise,experience,no,-,"61.01, 61.02",61.1,social,hybrid + visual,-,content-based
+64,64.056,persuasiveness,gender,demographic,no,-,"64.01, 64.02, 64.03",64.1,health,hybrid,-,-
+64,64.063,trust,propensity to trust others,personality,yes,positive,-,64.1,health,hybrid,-,-
+64,64.058,persuasiveness,age,demographic,yes,negative,-,64.1,health,hybrid,-,-
+64,64.061,persuasiveness,conscientiousness,personality,yes,positive,-,64.1,health,hybrid,-,-
+64,64.062,persuasiveness,neuroticism,personality,yes,positive,-,64.1,health,hybrid,-,-
+64,64.069,persuasiveness,extraversion,personality,yes,negative,-,64.1,health,hybrid,-,-
+67,67.008,persuasiveness,openness,personality,no,-,67.01,67.01,health,hybrid,-,content-based
+67,67.009,persuasiveness,conscientiousness,personality,no,-,67.01,67.01,health,hybrid,-,content-based
+67,67.010,persuasiveness,extraversion,personality,no,-,67.01,67.01,health,hybrid,-,content-based
+67,67.011,persuasiveness,agreeableness,personality,no,-,67.01,67.01,health,hybrid,-,content-based
+67,67.012,persuasiveness,neuroticism,personality,no,-,67.01,67.01,health,hybrid,-,content-based
+67,67.013,persuasiveness,openness,personality,no,-,67.02,67.02,health,hybrid,-,content-based
+67,67.018,persuasiveness,conscientiousness,personality,yes,-,67.02,67.02,health,hybrid,-,content-based
+82,82.004,transparency,visualization literacy,experience,yes,-,"82.01, 82.02, 82.03",82.1,document,hybrid + textual,-,content-based
+82,82.016,Usability/UX,visualization literacy,experience,yes,-,82.03,82.1,document,hybrid,-,content-based
+82,82.017,trust,visualization literacy,experience,yes,-,82.03,82.1,document,hybrid,-,content-based
+82,82.018,effectiveness,visualization literacy,experience,yes,-,82.03,82.1,document,hybrid,-,content-based
+82,82.019,efficiency,visualization literacy,experience,yes,-,82.03,82.1,document,hybrid,-,content-based
+82,82.002,transparency,need for cognition,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.010,Usability/UX,need for cognition,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.011,trust,need for cognition,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.012,effectiveness,need for cognition,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.053,persuasiveness,need for cognition,personality,no,-,82.03,82.1,document,hybrid,-,content-based
+82,82.055,efficiency,need for cognition,personality,no,-,82.03,82.1,document,hybrid,-,content-based
+82,82.003,persuasiveness,visualization literacy,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.015,Usability/UX,visualization literacy,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.005,Usability/UX,personal innovativeness,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.021,trust,personal innovativeness,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.022,effectiveness,personal innovativeness,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.023,persuasiveness,personal innovativeness,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.024,efficiency,personal innovativeness,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.025,transparency,personal innovativeness,personality,yes,-,82.01,82.1,document,hybrid,-,content-based
+82,82.006,Usability/UX,propensity to trust others,personality,yes,-,82.01,82.1,document,hybrid,-,content-based
+82,82.007,transparency,propensity to trust others,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.026,trust,propensity to trust others,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.027,effectiveness,propensity to trust others,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.028,efficiency,propensity to trust others,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.029,persuasiveness,propensity to trust others,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.030,Usability/UX,propensity to trust others,personality,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.008,Usability/UX,domain knowledge,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.031,transparency,domain knowledge,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.032,trust,domain knowledge,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.033,effectiveness,domain knowledge,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.034,efficiency,domain knowledge,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.035,persuasiveness,domain knowledge,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.036,Usability/UX,domain knowledge,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.037,Usability/UX,technical expertise,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.038,transparency,technical expertise,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.039,trust,technical expertise,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.040,effectiveness,technical expertise,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.041,efficiency,technical expertise,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+82,82.042,persuasiveness,technical expertise,experience,no,-,82.01,82.1,document,hybrid,-,content-based
+89,89.001,perceived explanation quality,agreeableness,personality,yes,-,89.01,89.1,poi,textual,-,-
+89,89.002,perceived explanation quality,neuroticism,personality,no,-,89.01,89.1,poi,textual,-,-
+99,99.015,transparency,level of education,demographic,no,-,99.01,99.1,education,hybrid,model-intrinsic,collaborative filtering
+99,99.016,trust,level of education,demographic,no,-,99.01,99.1,education,hybrid,model-intrinsic,collaborative filtering
+99,99.017,Usability/UX,level of education,demographic,yes,-,99.01,99.1,education,hybrid,model-intrinsic,collaborative filtering
+99,99.020,Usability/UX,level of education,demographic,yes,-,99.01,99.1,education,hybrid,model-intrinsic,collaborative filtering
+99,99.039,transparency,gender,demographic,yes,-,99.01,99.1,education,hybrid,model-intrinsic,collaborative filtering
+99,99.040,trust,gender,demographic,yes,-,99.01,99.1,education,hybrid,model-intrinsic,collaborative filtering
+99,99.044,Usability/UX,gender,demographic,yes,-,99.01,99.1,education,hybrid,model-intrinsic,collaborative filtering
+99,99.045,Usability/UX,gender,demographic,yes,-,99.01,99.1,education,hybrid,model-intrinsic,collaborative filtering
+104,104.019,effectiveness,technical expertise,experience,yes,-,-,104.1,health,textual + visual,-,-
+106,106.037,transparency,social awareness,personality,yes,positive,-,106.1,energy saving,hybrid + numerical,post-hoc,-
+111,111.001,transparency,level of education,demographic,yes,-,111.01,111.1,education,textual,-,hybrid
+111,111.003,transparency,level of education,demographic,no,-,111.01,111.1,education,textual,-,hybrid
+127,127.002,perceived explanation quality,need for cognition,personality,no,-,"127.01, 127.02, 127.03, 127.04",127.1,e-commerce,textual,-,hybrid
+128,128.009,perceived explanation quality,age,demographic,yes,-,"128.01, 128.02, 128.03",128.1,movie,textual,post-hoc,hybrid
+128,128.024,perceived explanation quality,gender,demographic,no,-,"128.01, 128.02, 128.04",128.1,movie,textual,post-hoc,hybrid
+130,130.021,perceived explanation quality,gender,demographic,yes,-,"130.01, 130.02",130.4,online dating,textual,post-hoc,content-based
+135,135.001,perceived explanation quality,extraversion,personality,no,-,135.01,135.1,poi,textual,-,none
+135,135.006,perceived explanation quality,agreeableness,personality,no,-,135.01,135.1,poi,textual,-,none
+135,135.007,perceived explanation quality,neuroticism,personality,no,-,135.01,135.1,poi,textual,-,none
+135,135.002,perceived explanation quality,extraversion,personality,no,-,135.02,135.1,poi,textual,-,none
+135,135.009,perceived explanation quality,agreeableness,personality,no,-,135.02,135.1,poi,textual,-,none
+135,135.010,perceived explanation quality,neuroticism,personality,no,-,135.02,135.1,poi,textual,-,none
+138,138.019,perceived explanation quality,rationality,personality,no,-,"138.01, 138.02, 138.03 138.04, 138.05, 138.06",138.1,poi,textual,-,none
+138,138.010,perceived explanation quality,social awareness,personality,no,-,"138.01, 138.02, 138.03, 138.04, 138.05, 138.06",138.1,poi,textual,-,none
+138,138.018,trust,social awareness,personality,yes,positive,"138.01, 138.02, 138.03, 138.04, 138.05, 138.06",138.1,poi,textual,-,none
+139,139.003,perceived explanation quality,decision-making strategy,personality,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+139,139.023,transparency,decision-making strategy,personality,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+139,139.024,effectiveness,decision-making strategy,personality,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+139,139.025,trust,decision-making strategy,personality,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+139,139.004,perceived explanation quality,social awareness,personality,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+139,139.026,transparency,social awareness,personality,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+139,139.027,effectiveness,social awareness,personality,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+139,139.028,trust,social awareness,personality,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+139,139.008,perceived explanation quality,decision-making strategy,personality,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+139,139.009,Usability/UX,decision-making strategy,personality,yes,-,139.03,139.1,poi,visual,post-hoc,content-based
+139,139.010,persuasiveness,social awareness,personality,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+139,139.011,Usability/UX,visualization literacy,experience,yes,-,"139.01, 139.02, 139.03",139.1,poi,schematic + textual + visual,post-hoc,content-based
+145,145.006,perceived explanation quality,social awareness,personality,yes,-,"145.01, 145.03",145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.003,transparency,decision-making strategy,personality,no,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.027,effectiveness,decision-making strategy,personality,yes,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.028,efficiency,decision-making strategy,personality,yes,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.029,trust,decision-making strategy,personality,yes,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.004,transparency,decision-making strategy,personality,no,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.034,perceived explanation quality,decision-making strategy,personality,yes,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.005,transparency,Social awareness,personality,yes,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.035,effectiveness,Social awareness,personality,yes,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.036,efficiency,Social awareness,personality,no,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.037,trust,Social awareness,personality,yes,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.038,perceived explanation quality,Social awareness,personality,yes,-,-,145.1,poi,visual + hybrid,post-hoc,content-based
+145,145.012,perceived explanation quality,Social awareness,personality,yes,positive,"145.01, 145.03",145.2,poi,visual + hybrid,post-hoc,content-based
+145,145.010,perceived explanation quality,decision-making strategy,personality,yes,positive,"145.01,145.02",145.2,poi,visual,post-hoc,content-based
+145,145.013,perceived explanation quality,visualization literacy,experience,yes,positive,"145.01, 145.02",145.2,poi,visual,post-hoc,content-based
+145,145.008,perceived explanation quality,decision-making strategy,personality,yes,positive,"145.01, 145.03",145.2,poi,visual + hybrid,post-hoc,content-based
+145,145.009,perceived explanation quality,decision-making strategy,personality,yes,positive,,,poi,visual + hybrid,post-hoc,content-based
+154,154.008,perceived explanation quality,need for cognition,personality,no,-,154.01,154.1,music,visual,-,-
+157,157.005,persuasiveness,technical expertise,experience,yes,-,157.04,157.1,music,textual,model-intrinsic,hybrid
+157,157.007,persuasiveness,domain knowledge,experience,no,-,,157.1,music,textual + visual,model-intrinsic,hybrid
+157,157.011,perceived explanation quality,technical expertise,experience,no,-,,157.1,music,textual + visual,model-intrinsic,hybrid
+157,157.012,perceived explanation quality,domain knowledge,experience,no,-,-,157.1,music,textual + visual,model-intrinsic,hybrid
+157,157.014,perceived explanation quality,visualization literacy,experience,yes,-,157.08,157.1,music,visual,model-intrinsic,hybrid
+157,157.015,perceived explanation quality,visualization literacy,experience,no,-,157.09,157.1,music,visual,model-intrinsic,hybrid
+157,157.017,perceived explanation quality,domain knowledge,experience,no,-,-,157.1,music,textual + visual,model-intrinsic,hybrid
+157,157.003,persuasiveness,neuroticism,personality,yes,positive,157.07,157.1,music,textual,model-intrinsic,hybrid
+157,157.004,persuasiveness,neuroticism,personality,yes,positive,157.02,157.1,music,textual,model-intrinsic,hybrid
+157,157.009,perceived explanation quality,conscientiousness,personality,yes,positive,-,157.1,music,textual + visual,model-intrinsic,hybrid
+157,157.010,perceived explanation quality,openness,personality,yes,positive,-,157.1,music,textual + visual,model-intrinsic,hybrid
+158,158.040,perceived explanation quality,valence,personality,yes,positive,,158.1,movie,visual,post-hoc,content-based
+167,167.060,perceived explanation quality,gender,demographic,no,-,"167.01, 167.02",167.1,poi,hybrid,-,none
+167,167.060,perceived explanation quality,decision-making strategy,personality,no,-,"167.01, 167.02",167.1,poi,hybrid,-,none
+167,167.090,perceived explanation quality,decision-making strategy,personality,yes,-,167.02,167.2,poi,hybrid,-,none
+169,169.120,Usability/UX,gender,demographic,yes,-,169.15,169.01,poi,textual,-,none
+173,173.020,trust,country of residence,demographic,yes,-,"173.01, 173.02, 173.03",173.1,movie,hybrid + textual,post-hoc,none
+173,173.030,trust,country of residence,demographic,yes,-,"173.01, 173.02, 173.03",173.1,movie,hybrid + textual,post-hoc,none
+173,173.030,transparency,country of residence,demographic,yes,-,"173.01, 173.02, 173.03",173.1,movie,hybrid + textual,post-hoc,none
+173,173.040,trust,country of residence,demographic,yes,-,"173.01, 173.02, 173.03",173.1,movie,hybrid + textual,post-hoc,none
+173,173.040,transparency,country of residence,demographic,yes,-,"173.01, 173.02, 173.03",173.1,movie,hybrid + textual,post-hoc,none
+173,173.050,trust,country of residence,demographic,yes,-,"173.01, 173.02, 173.03",173.1,movie,hybrid + textual,post-hoc,none
+177,177.013,trust,rationality,personality,no,-,,177.1,e-commerce,textual,-,-
+177,177.014,trust,rationality,personality,no,-,,177.1,e-commerce,textual,-,-
+178,178.040,transparency,domain knowledge,experience,yes,-,178.01,178.1,movie,visual,model-intrinsic,collaborative filtering
+178,178.040,transparency,trust in technology,personality,yes,-,178.01,178.1,movie,visual,model-intrinsic,collaborative filtering

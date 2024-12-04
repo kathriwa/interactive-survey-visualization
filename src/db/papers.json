@@ -1,0 +1,2808 @@
+[
+    {
+        "key":1,
+        "paperId":3,
+        "firstAuthor":"Kleinerman, Akiva",
+        "title":"Supporting users in finding successful matches in reciprocal recommender systems",
+        "year":2021,
+        "venue":"User Modeling and User-Adapted Interaction",
+        "domain":"Online Dating",
+        "recommenderType":"Hybrid",
+        "effects":[
+            "Other",
+            "Perceived Explanation Quality",
+            "Satisfaction",
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":2,
+        "paperId":4,
+        "firstAuthor":"Zimmermann, Robert",
+        "title":"Enhancing brick-and-mortar store shopping experience with an augmented reality shopping assistant application using personalized recommendations and explainable artificial intelligence",
+        "year":2022,
+        "venue":"Journal of Research in Interactive Marketing",
+        "domain":"E-Commerce",
+        "recommenderType":null,
+        "effects":[
+            "Persuasiveness",
+            "Satisfaction",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":3,
+        "paperId":8,
+        "firstAuthor":"Yang, Aobo",
+        "title":"Comparative explanations of recommendations",
+        "year":2022,
+        "venue":"The Web Conference",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":4,
+        "paperId":11,
+        "firstAuthor":"Chen, Li",
+        "title":"Explaining recommendations based on feature sentiments in product reviews",
+        "year":2017,
+        "venue":"IUI",
+        "domain":"E-Commerce",
+        "recommenderType":"Unclear",
+        "effects":[
+            "Effectiveness",
+            "Efficiency",
+            "Perceived Explanation Quality",
+            "Persuasiveness",
+            "Satisfaction",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":5,
+        "paperId":14,
+        "firstAuthor":"Kouki, Pigi",
+        "title":"User preferences for hybrid explanations",
+        "year":2017,
+        "venue":"RecSys",
+        "domain":"POI",
+        "recommenderType":"Hybrid",
+        "effects":[
+            "Explanation Preference"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":6,
+        "paperId":15,
+        "firstAuthor":"Quijano-Sanchez, Lara",
+        "title":"Make it personal: A social explanation system applied to group recommendations",
+        "year":2017,
+        "venue":"Expert Systems with Applications",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Efficiency",
+            "Other",
+            "Persuasiveness",
+            "Satisfaction",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":7,
+        "paperId":22,
+        "firstAuthor":"Yang, Zekun",
+        "title":"Interpretable video tag recommendation with multimedia deep learning framework",
+        "year":2022,
+        "venue":"Internet Research",
+        "domain":"Video Tag",
+        "recommenderType":null,
+        "effects":[
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":8,
+        "paperId":28,
+        "firstAuthor":"Volokhin, Sergey ",
+        "title":"Generating and Validating Contextually Relevant Justifications for Conversational Recommendation",
+        "year":2022,
+        "venue":"CHIIR",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Efficiency"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":9,
+        "paperId":30,
+        "firstAuthor":"Takami, Kyosuke",
+        "title":"Educational Explainable Recommender Usage and its Effectiveness in High School Summer Vacation Assignment",
+        "year":2022,
+        "venue":"LAK",
+        "domain":"Education",
+        "recommenderType":null,
+        "effects":[
+            "Persuasiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":10,
+        "paperId":33,
+        "firstAuthor":"Millecamp, Martijn",
+        "title":"\u201cKnowing me, knowing you\u201d: personalized explanations for a music recommender system",
+        "year":2022,
+        "venue":"User Modeling and User-Adapted Interaction",
+        "domain":"Music",
+        "recommenderType":null,
+        "effects":[
+            "Explanation Preference"
+        ],
+        "userCharacteristic":[
+            "Need For Cognition"
+        ],
+        "modalities":[
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":11,
+        "paperId":40,
+        "firstAuthor":"Pecune, Florian",
+        "title":"Designing Persuasive Food Conversational Recommender Systems With Nudging and Socially-Aware Conversational Strategies",
+        "year":2022,
+        "venue":"Frontiers in Robotics and AI",
+        "domain":"Health",
+        "recommenderType":"Hybrid",
+        "effects":[
+            "Persuasiveness",
+            "Satisfaction",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":12,
+        "paperId":41,
+        "firstAuthor":"Gajos, Krzysztof Z.",
+        "title":"Do People Engage Cognitively with AI? Impact of AI Assistance on Incidental Learning",
+        "year":2022,
+        "venue":"IUI",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Transparency"
+        ],
+        "userCharacteristic":[
+            "Need For Cognition"
+        ],
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":13,
+        "paperId":42,
+        "firstAuthor":"Ooge, Jeroen ",
+        "title":"Explaining Recommendations in E-Learning: Effects on Adolescents' Trust",
+        "year":2022,
+        "venue":"IUI",
+        "domain":"Education",
+        "recommenderType":"Collaborative Filtering",
+        "effects":[
+            "Persuasiveness",
+            "Transparency",
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":14,
+        "paperId":43,
+        "firstAuthor":"Rana, Arpit ",
+        "title":"Extended recommendation-by-explanation",
+        "year":2022,
+        "venue":"User Modeling and User-Adapted Interaction",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":15,
+        "paperId":45,
+        "firstAuthor":"Hadash, Sophia",
+        "title":"Improving understandability of feature contributions in model-agnostic explainable AI tools",
+        "year":2022,
+        "venue":"CHI",
+        "domain":"Multiple",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":16,
+        "paperId":49,
+        "firstAuthor":"Penha, Gustavo",
+        "title":"Pairwise Review-Based Explanations for Voice Product Search",
+        "year":2022,
+        "venue":"CHIIR",
+        "domain":"E-Commerce",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Persuasiveness",
+            "Transparency"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Audio"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":17,
+        "paperId":56,
+        "firstAuthor":"Panigutti, Cecilia ",
+        "title":"Understanding the impact of explanations on advice-taking: a user study for AI-based clinical Decision Support Systems",
+        "year":2022,
+        "venue":"CHI",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":18,
+        "paperId":61,
+        "firstAuthor":"Chatti, Mohamed Amine",
+        "title":"Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+        "year":2022,
+        "venue":"UMAP",
+        "domain":"Social",
+        "recommenderType":"Content-Based",
+        "effects":[
+            "Explanation Preference",
+            "Trust"
+        ],
+        "userCharacteristic":[
+            "Need For Cognition",
+            "Personal Innovativeness",
+            "Technical Expertise",
+            "Visualization Literacy"
+        ],
+        "modalities":[
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":19,
+        "paperId":62,
+        "firstAuthor":"Zhang, Zhirun",
+        "title":"Effects of Feature-Based Explanation and Its Output Modality on User Satisfaction With Service Recommender Systems",
+        "year":2022,
+        "venue":"Frontiers in Big Data",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Persuasiveness",
+            "Satisfaction"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Audio",
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":20,
+        "paperId":63,
+        "firstAuthor":"Majjodi, Ayoub El",
+        "title":"Nudging Towards Health? Examining the Merits of Nutrition Labels and Personalization in a Recipe Recommender System",
+        "year":2022,
+        "venue":"UMAP",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Satisfaction",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":21,
+        "paperId":64,
+        "firstAuthor":"Nelekar, Shreeya ",
+        "title":"Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
+        "year":2022,
+        "venue":"British Journal of Educational Technology",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Other",
+            "Persuasiveness",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Age",
+            "Conscientiousness",
+            "Extraversion",
+            "Gender",
+            "Neuroticism",
+            "Propensity To Trust Others"
+        ],
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":22,
+        "paperId":67,
+        "firstAuthor":"Abdulrahman, Amal",
+        "title":"Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
+        "year":2022,
+        "venue":"Behaviour & Information Technology",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Persuasiveness"
+        ],
+        "userCharacteristic":[
+            "Agreeableness",
+            "Conscientiousness",
+            "Extraversion",
+            "Neuroticism",
+            "Openness"
+        ],
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":23,
+        "paperId":82,
+        "firstAuthor":"Guesmi, Mouadh",
+        "title":"Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+        "year":2022,
+        "venue":"UMAP",
+        "domain":"Document",
+        "recommenderType":"Content-Based",
+        "effects":[
+            "Effectiveness",
+            "Efficiency",
+            "Explanation Preference",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Domain Knowledge",
+            "Need For Cognition",
+            "Personal Innovativeness",
+            "Propensity To Trust Others",
+            "Technical Expertise",
+            "Visualization Literacy"
+        ],
+        "modalities":[
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":24,
+        "paperId":83,
+        "firstAuthor":"Mishra, Aditi",
+        "title":"Why? Why not? When? Visual Explanations of Agent Behaviour in Reinforcement Learning",
+        "year":2022,
+        "venue":"PacificVis",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Perceived Explanation Quality",
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":25,
+        "paperId":85,
+        "firstAuthor":"Tal, Avital Shulner",
+        "title":"Fairness, explainability and in-between: understanding the impact of different explanation methods on non-expert users\u2019 perceptions of fairness toward an algorithmic system",
+        "year":2022,
+        "venue":"Ethics and Information Technology",
+        "domain":"Job",
+        "recommenderType":null,
+        "effects":[
+            "Transparency",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":26,
+        "paperId":88,
+        "firstAuthor":"Liao, Mengqi",
+        "title":"User Trust in Recommendation Systems: A comparison of Content-Based, Collaborative and Demographic Filtering",
+        "year":2022,
+        "venue":"CHI",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Satisfaction",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":27,
+        "paperId":89,
+        "firstAuthor":"Najafian, Shabnam",
+        "title":"Factors Influencing Privacy Concern for Explanations of Group Recommendation",
+        "year":2021,
+        "venue":"UMAP",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality"
+        ],
+        "userCharacteristic":[
+            "Agreeableness",
+            "Neuroticism"
+        ],
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":28,
+        "paperId":92,
+        "firstAuthor":"Choi, Jaewon",
+        "title":"Examining the effects of personalized app recommender systems on purchase intention: a self and social-interaction perspective",
+        "year":2017,
+        "venue":"Journal of Electronic Commerce Research",
+        "domain":"App",
+        "recommenderType":"Collaborative Filtering",
+        "effects":[
+            "Persuasiveness",
+            "Satisfaction",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":29,
+        "paperId":99,
+        "firstAuthor":"Ma, Boxuan",
+        "title":"CourseQ: the impact of visual and interactive course recommendation in university environments",
+        "year":2021,
+        "venue":"Research and Practice in Technology Enhanced Learning volume",
+        "domain":"Education",
+        "recommenderType":"Collaborative Filtering",
+        "effects":[
+            "Satisfaction",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Gender",
+            "Level Of Education"
+        ],
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":30,
+        "paperId":100,
+        "firstAuthor":"Tran, Thi Ngoc Trang",
+        "title":"Do Users Appreciate Explanations of Recommendations? An Analysis in the Movie Domain",
+        "year":2021,
+        "venue":"RecSys",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Explanation Preference",
+            "Perceived Explanation Quality",
+            "Satisfaction"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":31,
+        "paperId":101,
+        "firstAuthor":"Ghazimatin, Azin",
+        "title":"ELIXIR: Learning from User Feedback on Explanations to Improve Recommender Models",
+        "year":2021,
+        "venue":"The Web Conference",
+        "domain":"Multiple",
+        "recommenderType":null,
+        "effects":[
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":32,
+        "paperId":102,
+        "firstAuthor":"Le, Trung-Hoang",
+        "title":"Explainable Recommendation with Comparative Constraints on Product Aspects",
+        "year":2021,
+        "venue":"WSDM",
+        "domain":"E-Commerce",
+        "recommenderType":"Unclear",
+        "effects":[
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":33,
+        "paperId":103,
+        "firstAuthor":"Musto, Cataldo",
+        "title":"Exploring the Effects of Natural Language Justifications in Food Recommender Systems",
+        "year":2021,
+        "venue":"UMAP",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":34,
+        "paperId":104,
+        "firstAuthor":"Jacobs, Maia",
+        "title":"How machine-learning recommendations influence clinician treatment selections: the example of antidepressant selection",
+        "year":2021,
+        "venue":"Translational Psychiatry",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Technical Expertise"
+        ],
+        "modalities":[
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":35,
+        "paperId":105,
+        "firstAuthor":"Liang, Yu",
+        "title":"Interactive Music Genre Exploration with Visualization and Mood Control",
+        "year":2021,
+        "venue":"IUI",
+        "domain":"Music",
+        "recommenderType":"Content-Based",
+        "effects":[
+            "Other",
+            "Perceived Explanation Quality",
+            "Transparency",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":36,
+        "paperId":106,
+        "firstAuthor":"Starke, Alain",
+        "title":"Promoting Energy-Efficient Behavior by Depicting Social Norms in a Recommender Interface",
+        "year":2021,
+        "venue":"ACM Transactions on Interactive Intelligent Systems",
+        "domain":"Energy Saving",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Social Awareness"
+        ],
+        "modalities":[
+            "Numerical",
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":37,
+        "paperId":107,
+        "firstAuthor":"Ghazimatin, Azin",
+        "title":"PRINCE: Provider-side Interpretability with Counterfactual Explanations in Recommender Systems",
+        "year":2020,
+        "venue":"WSDM",
+        "domain":"Book",
+        "recommenderType":null,
+        "effects":null,
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":38,
+        "paperId":108,
+        "firstAuthor":"Balog, Krisztian",
+        "title":"Measuring Recommendation Explanation Quality: The Conflicting Goals of Explanations",
+        "year":2020,
+        "venue":"SIGIR",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":null,
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":39,
+        "paperId":109,
+        "firstAuthor":"Damak, Khalil",
+        "title":"Sequence-Based Explainable Hybrid Song Recommendation",
+        "year":2021,
+        "venue":"Frontiers in Big Data",
+        "domain":"Music",
+        "recommenderType":null,
+        "effects":[
+            "Satisfaction"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Audio"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":40,
+        "paperId":110,
+        "firstAuthor":"Tsai, Chun-Hua",
+        "title":"The effects of controllability and explainability in a social recommender system",
+        "year":2021,
+        "venue":"User Modeling and User-Adapted Interaction",
+        "domain":"Social",
+        "recommenderType":"Hybrid",
+        "effects":[
+            "Effectiveness",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":41,
+        "paperId":111,
+        "firstAuthor":"Zheng, Yong",
+        "title":"The role of transparency in multi-stakeholder educational recommendations",
+        "year":2021,
+        "venue":"User Modeling and User-Adapted Interaction",
+        "domain":"Education",
+        "recommenderType":null,
+        "effects":null,
+        "userCharacteristic":[
+            "Level Of Education"
+        ],
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":42,
+        "paperId":112,
+        "firstAuthor":"Bu\u00e7inca, Zana",
+        "title":"To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making",
+        "year":2021,
+        "venue":"Proceedings of the ACM on Human-Computer Interaction",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Explanation Preference",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":43,
+        "paperId":113,
+        "firstAuthor":"Berkovsky, S.",
+        "title":"How to Recommend?: User Trust Factors in Movie Recommender Systems",
+        "year":2017,
+        "venue":"IUI",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Transparency",
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":44,
+        "paperId":114,
+        "firstAuthor":"Kaminskas, Marius",
+        "title":"Item-Based Explanations for User-Based Recommendations",
+        "year":2017,
+        "venue":"eKNOW",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":45,
+        "paperId":115,
+        "firstAuthor":"Abdi, Solmaz",
+        "title":"Complementing educational recommender systems with open learner models",
+        "year":2020,
+        "venue":"LAK",
+        "domain":"Education",
+        "recommenderType":null,
+        "effects":[
+            "Other",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":46,
+        "paperId":116,
+        "firstAuthor":"Musto, Cataldo",
+        "title":"Linked open data-based explanations for transparent recommender systems",
+        "year":2019,
+        "venue":"INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES",
+        "domain":"Multiple",
+        "recommenderType":null,
+        "effects":[
+            "Explanation Preference",
+            "Persuasiveness",
+            "Satisfaction",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":47,
+        "paperId":117,
+        "firstAuthor":"Alshammari, M.",
+        "title":"Mining Semantic Knowledge Graphs to Add Explainability to Black Box Recommender Systems",
+        "year":2019,
+        "venue":"IEEE ACCESS",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Satisfaction",
+            "Transparency"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":48,
+        "paperId":118,
+        "firstAuthor":"Zhou, Jinfeng",
+        "title":"CRFR: Improving Conversational Recommender Systems via Flexible Fragments Reasoning on Knowledge Graphs",
+        "year":2021,
+        "venue":"EMNLP",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Transparency"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":49,
+        "paperId":119,
+        "firstAuthor":"Pecune, Florian",
+        "title":"A Model of Social Explanations for a Conversational Movie Recommendation System",
+        "year":2019,
+        "venue":"HAI",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Other",
+            "Persuasiveness",
+            "Satisfaction",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":50,
+        "paperId":120,
+        "firstAuthor":"Sato, M.",
+        "title":"Action-Triggering Recommenders: Uplift Optimization and Persuasive Explanation",
+        "year":2019,
+        "venue":"ICDMW",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Persuasiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":51,
+        "paperId":121,
+        "firstAuthor":"Hong, Minsung",
+        "title":"Improving Explainability of Recommendation System by Multi-sided Tensor Factorization",
+        "year":2019,
+        "venue":"CYBERNETICS AND SYSTEMS",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":52,
+        "paperId":122,
+        "firstAuthor":"Torkamaan, Helma",
+        "title":"Rating-based Preference Elicitation for Recommendation of Stress Intervention",
+        "year":2019,
+        "venue":"UMAP",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Satisfaction"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":53,
+        "paperId":123,
+        "firstAuthor":"Wibowo, Agung Toto",
+        "title":"Understanding how to Explain Package Recommendations in the Clothes Domain",
+        "year":2018,
+        "venue":"RecSys",
+        "domain":"E-Commerce",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Efficiency",
+            "Explanation Preference",
+            "Persuasiveness",
+            "Transparency",
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":54,
+        "paperId":124,
+        "firstAuthor":"Tsai, Chun-Hua",
+        "title":"Exploring and Promoting Diagnostic Transparency and Explainability in Online Symptom Checkers",
+        "year":2021,
+        "venue":"CHI",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Satisfaction",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":55,
+        "paperId":125,
+        "firstAuthor":"Bogina, Veronika",
+        "title":"Visualizing Program Genres' Temporal-Based Similarity in Linear TV Recommendations",
+        "year":2020,
+        "venue":"AVI",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Efficiency",
+            "Perceived Explanation Quality",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Tabular",
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":56,
+        "paperId":126,
+        "firstAuthor":"Afridi, Ahmad Hassan",
+        "title":"Triggers and connection-making for serendipity via user interface in recommender systems",
+        "year":2021,
+        "venue":"Personal and Ubiquitous Computing",
+        "domain":"Education",
+        "recommenderType":null,
+        "effects":[
+            "Transparency",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":57,
+        "paperId":127,
+        "firstAuthor":"Liao, Mengqi",
+        "title":"When E-Commerce Personalization Systems Show and Tell: Investigating the Relative Persuasive Appeal of Content-Based versus Collaborative Filtering",
+        "year":2021,
+        "venue":"Journal of Advertising",
+        "domain":"E-Commerce",
+        "recommenderType":"Content-Based, Collaborative Filtering",
+        "effects":[
+            "Perceived Explanation Quality",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Need For Cognition"
+        ],
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":58,
+        "paperId":128,
+        "firstAuthor":"Wilkinson, Daricia",
+        "title":"Why or Why Not? The Effect of Justification Styles on Chatbot Recommendations",
+        "year":2021,
+        "venue":"ACM Transactions on Information Systems",
+        "domain":"Movie",
+        "recommenderType":"Content-Based",
+        "effects":[
+            "Perceived Explanation Quality",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Age",
+            "Gender"
+        ],
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":59,
+        "paperId":129,
+        "firstAuthor":"Dominguez, Vicente",
+        "title":"Towards Explanations for Visual Recommender Systems of Artistic Images",
+        "year":2018,
+        "venue":"RecSys",
+        "domain":"Art",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Satisfaction",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":60,
+        "paperId":130,
+        "firstAuthor":"Kleinerman, Akiva",
+        "title":"Providing explanations for recommendations in reciprocal environments",
+        "year":2018,
+        "venue":"RecSys",
+        "domain":"Online Dating",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Satisfaction",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Gender"
+        ],
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":61,
+        "paperId":131,
+        "firstAuthor":"Sato, Masahiro",
+        "title":"Explaining Recommendations Using Contexts",
+        "year":2018,
+        "venue":"IUI",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Persuasiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":62,
+        "paperId":132,
+        "firstAuthor":"Wang, Nan",
+        "title":"Explainable Recommendation via Multi-Task Learning in Opinionated Text Data",
+        "year":2018,
+        "venue":"SIGIR",
+        "domain":"Multiple",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Satisfaction",
+            "Transparency"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":63,
+        "paperId":133,
+        "firstAuthor":"Tao, Yiyi",
+        "title":"The FacT: Taming Latent Factor Models for Explainability with Factorization Trees",
+        "year":2019,
+        "venue":"SIGIR",
+        "domain":"Multiple",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Satisfaction",
+            "Transparency"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":64,
+        "paperId":134,
+        "firstAuthor":"Yu, Run",
+        "title":"Orienting Students to Course Recommendations Using Three Types of Explanation",
+        "year":2021,
+        "venue":"UMAP",
+        "domain":"Education",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":65,
+        "paperId":135,
+        "firstAuthor":"Najafian, Shabnam",
+        "title":"Exploring User Concerns about Disclosing Location and Emotion Information in Group Recommendations",
+        "year":2021,
+        "venue":"HT",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality"
+        ],
+        "userCharacteristic":[
+            "Agreeableness",
+            "Extraversion",
+            "Neuroticism"
+        ],
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":66,
+        "paperId":136,
+        "firstAuthor":"Naiseh, Mohammad",
+        "title":"Nudging through Friction: An Approach for Calibrating Trust in Explainable AI",
+        "year":2021,
+        "venue":"2021 8th International Conference on Behavioral and Social Computing (BESC)",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Other"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":67,
+        "paperId":137,
+        "firstAuthor":"Starke, Alain D.",
+        "title":"\u201cServing Each User\u201d: Supporting Different Eating Goals Through a Multi-List Recommender Interface",
+        "year":2021,
+        "venue":"RecSys",
+        "domain":"Health",
+        "recommenderType":"Collaborative Filtering",
+        "effects":[
+            "Effectiveness",
+            "Satisfaction",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":68,
+        "paperId":138,
+        "firstAuthor":"Hernandez-Bocanegra, Diana C.",
+        "title":"Effects of Argumentative Explanation Types on the Perception of Review-Based Recommendations",
+        "year":2020,
+        "venue":"UMAP",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Efficiency",
+            "Perceived Explanation Quality",
+            "Transparency"
+        ],
+        "userCharacteristic":[
+            "Rationality",
+            "Social Awareness"
+        ],
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":69,
+        "paperId":139,
+        "firstAuthor":"Hernandez-Bocanegra, Diana C. ",
+        "title":"Effects of interactivity and presentation on review-based explanations for recommendations",
+        "year":2021,
+        "venue":"INTERACT",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Explanation Preference",
+            "Other",
+            "Perceived Explanation Quality",
+            "Persuasiveness",
+            "Transparency",
+            "Trust"
+        ],
+        "userCharacteristic":[
+            "Decision-Making Strategy",
+            "Social Awareness",
+            "Visualization Literacy"
+        ],
+        "modalities":[
+            "Tabular",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":70,
+        "paperId":140,
+        "firstAuthor":"Rago, Antonio",
+        "title":"Argumentation as a Framework for Interactive Explanations for Recommendations",
+        "year":2020,
+        "venue":"KR",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Transparency",
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Tabular",
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":71,
+        "paperId":141,
+        "firstAuthor":"Malhi, A.",
+        "title":"Explainable Agents for Less Bias in Human-Agent Decision Making",
+        "year":2020,
+        "venue":"AAMAS",
+        "domain":"Banking",
+        "recommenderType":null,
+        "effects":[
+            "Satisfaction"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":72,
+        "paperId":142,
+        "firstAuthor":"Coba, Ludovik",
+        "title":"Personalised novel and explainable matrix factorisation",
+        "year":2019,
+        "venue":"DATA & KNOWLEDGE ENGINEERING",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":73,
+        "paperId":143,
+        "firstAuthor":"Bellini, Vito",
+        "title":"Semantics-Aware Autoencoder",
+        "year":2019,
+        "venue":"IEEE ACCESS",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Persuasiveness",
+            "Satisfaction",
+            "Transparency",
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":74,
+        "paperId":144,
+        "firstAuthor":"Millecamp, Martijn",
+        "title":"To explain or not to explain: the effects of personal characteristics when explaining music recommendations",
+        "year":2019,
+        "venue":"IUI",
+        "domain":"Music",
+        "recommenderType":null,
+        "effects":[
+            "Other",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":75,
+        "paperId":145,
+        "firstAuthor":"Hernandez-Bocanegra, Diana C. ",
+        "title":"Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+        "year":2021,
+        "venue":"i-com",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Efficiency",
+            "Perceived Explanation Quality",
+            "Persuasiveness",
+            "Satisfaction",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Decision-Making Strategy",
+            "Social Awareness",
+            "Visualization Literacy"
+        ],
+        "modalities":[
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":76,
+        "paperId":146,
+        "firstAuthor":"Naveed, Sidra",
+        "title":"On the Use of Feature-based Collaborative Explanations: An Empirical Comparison of Explanation Styles",
+        "year":2020,
+        "venue":"UMAP",
+        "domain":"E-Commerce",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Satisfaction",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Not Mentioned",
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":77,
+        "paperId":147,
+        "firstAuthor":"Guesmi, Mouadh",
+        "title":"Input or Output: Effects of Explanation Focus on the Perception of Explainable Recommendation with Varying Level of Details",
+        "year":2021,
+        "venue":"RecSys",
+        "domain":"Social",
+        "recommenderType":"Content-Based",
+        "effects":[
+            "Effectiveness",
+            "Efficiency",
+            "Perceived Explanation Quality",
+            "Persuasiveness",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":78,
+        "paperId":148,
+        "firstAuthor":"Tsukuda, Kosetsu",
+        "title":"Explainable Recommendation for Repeat Consumption",
+        "year":2020,
+        "venue":"RecSys",
+        "domain":"Music",
+        "recommenderType":null,
+        "effects":[
+            "Persuasiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":79,
+        "paperId":149,
+        "firstAuthor":"Barria-Pineda, Jordan",
+        "title":"Personalized Remedial Recommendations for SQL Programming Practice System",
+        "year":2020,
+        "venue":"UMAP",
+        "domain":"Education",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Other",
+            "Persuasiveness",
+            "Satisfaction",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":80,
+        "paperId":150,
+        "firstAuthor":"Xu, Xuhai",
+        "title":"Understanding User Behavior For Document Recommendation",
+        "year":2020,
+        "venue":"The Web Conference",
+        "domain":"Document",
+        "recommenderType":null,
+        "effects":[
+            "Efficiency",
+            "Other",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":81,
+        "paperId":151,
+        "firstAuthor":"Dominguez, Vicente",
+        "title":"Algorithmic and HCI Aspects for Explaining Recommendations of Artistic Images",
+        "year":2020,
+        "venue":"ACM Transactions on Interactive Intelligent Systems",
+        "domain":"Art",
+        "recommenderType":null,
+        "effects":[
+            "Other",
+            "Satisfaction",
+            "Transparency",
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic",
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":82,
+        "paperId":152,
+        "firstAuthor":"Baizal, Z.K.A.",
+        "title":"Computational model for generating interactions in conversational recommender system based on product functional requirements",
+        "year":2020,
+        "venue":"Data & Knowledge Engineering",
+        "domain":"E-Commerce",
+        "recommenderType":null,
+        "effects":[
+            "Explanation Preference"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":83,
+        "paperId":153,
+        "firstAuthor":"Donkers, Tim",
+        "title":"Explaining recommendations by means of aspect-based transparent memories",
+        "year":2020,
+        "venue":"IUI",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":84,
+        "paperId":154,
+        "firstAuthor":"Millecamp, Martijn",
+        "title":"What's in a User? Towards Personalising Transparency for Music Recommender Interfaces",
+        "year":2020,
+        "venue":"UMAP",
+        "domain":"Music",
+        "recommenderType":null,
+        "effects":[
+            "Other",
+            "Perceived Explanation Quality",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Need For Cognition"
+        ],
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":85,
+        "paperId":155,
+        "firstAuthor":"da Silva, Rodrigo Fernandes Gomes",
+        "title":"CROKAGE: effective solution recommendation for programming tasks by leveraging crowd knowledge",
+        "year":2020,
+        "venue":"Empirical Software Engineering",
+        "domain":"Programming",
+        "recommenderType":"Collaborative Filtering",
+        "effects":[
+            "Explanation Preference"
+        ],
+        "userCharacteristic":null,
+        "modalities":null,
+        "explainabilityType":null
+    },
+    {
+        "key":86,
+        "paperId":156,
+        "firstAuthor":"Jugovac, Michael",
+        "title":"Investigating the Decision-Making Behavior of Maximizers and Satisficers in the Presence of Recommendations",
+        "year":2018,
+        "venue":"UMAP",
+        "domain":"POI",
+        "recommenderType":"Collaborative Filtering",
+        "effects":null,
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":87,
+        "paperId":157,
+        "firstAuthor":"Kouki, Pigi",
+        "title":"Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
+        "year":2020,
+        "venue":"ACM Transactions on Interactive Intelligent Systems",
+        "domain":"Music",
+        "recommenderType":"Hybrid",
+        "effects":[
+            "Explanation Preference",
+            "Persuasiveness"
+        ],
+        "userCharacteristic":[
+            "Conscientiousness",
+            "Domain Knowledge",
+            "Neuroticism",
+            "Openness",
+            "Technical Expertise",
+            "Visualization Literacy"
+        ],
+        "modalities":[
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":88,
+        "paperId":158,
+        "firstAuthor":"Kim, Byung Hyung",
+        "title":"Improved Explanatory Efficacy on Human Affect and Workload Through Interactive Process in Artificial Intelligence",
+        "year":2020,
+        "venue":"IEEE Access",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Other",
+            "Perceived Explanation Quality",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Valence"
+        ],
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":89,
+        "paperId":159,
+        "firstAuthor":"Shmaryahu, Dorin",
+        "title":"Post-hoc Explanations for Complex Model Recommendations using Simple Methods",
+        "year":2020,
+        "venue":"RecSys",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Explanation Preference",
+            "Satisfaction"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":90,
+        "paperId":160,
+        "firstAuthor":"Wang, GaoShan",
+        "title":"Research on the influence of interpretability of artificial intelligence recommendation system on users' behavior intention",
+        "year":2020,
+        "venue":"EITCE",
+        "domain":"",
+        "recommenderType":null,
+        "effects":[
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":null,
+        "explainabilityType":null
+    },
+    {
+        "key":91,
+        "paperId":161,
+        "firstAuthor":"Naveed, Sidra",
+        "title":"Featuristic: An interactive hybrid system for generating explainable recommendations - beyond system accuracy",
+        "year":2020,
+        "venue":"RecSys",
+        "domain":"E-Commerce",
+        "recommenderType":"Hybrid",
+        "effects":[
+            "Effectiveness",
+            "Transparency",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":92,
+        "paperId":162,
+        "firstAuthor":"Karga, Soultana",
+        "title":"Using explanations for recommender systems in learning design settings to enhance teachers' acceptance and perceived experience",
+        "year":2019,
+        "venue":"EDUCATION AND INFORMATION TECHNOLOGIES",
+        "domain":"Education",
+        "recommenderType":"Hybrid",
+        "effects":[
+            "Effectiveness",
+            "Satisfaction",
+            "Transparency",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":93,
+        "paperId":163,
+        "firstAuthor":"Kunkel, Johannes",
+        "title":"Let Me Explain: Impact of Personal and Impersonal Explanations on Trust in Recommender Systems",
+        "year":2019,
+        "venue":"CHI",
+        "domain":"Movie",
+        "recommenderType":"Collaborative Filtering",
+        "effects":[
+            "Perceived Explanation Quality",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":94,
+        "paperId":164,
+        "firstAuthor":"Hera, Stella",
+        "title":"Recommending Learning Objects with Arguments and Explanations ",
+        "year":2020,
+        "venue":"applied sciences",
+        "domain":"Education",
+        "recommenderType":"Hybrid",
+        "effects":[
+            "Explanation Preference"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":95,
+        "paperId":165,
+        "firstAuthor":"Coba, L.",
+        "title":"Exploring Users' Perception of Collaborative Explanation Styles",
+        "year":2018,
+        "venue":"Conference on Business Informatics",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Explanation Preference"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":96,
+        "paperId":166,
+        "firstAuthor":"Afridi, Ahmad Hassan",
+        "title":"Visualizing Serendipitous Recommendations in User Controlled Recommender System for Learning",
+        "year":2018,
+        "venue":"International Symposium on Emerging Information, Communication and Networks",
+        "domain":"Education",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Transparency",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":97,
+        "paperId":167,
+        "firstAuthor":"Coba, Ludovik",
+        "title":"Decision Making Strategies Differ in the Presence of Collaborative Explanations: Two Conjoint Studies",
+        "year":2019,
+        "venue":"IUI",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Explanation Preference"
+        ],
+        "userCharacteristic":[
+            "Decision-Making Strategy",
+            "Gender"
+        ],
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":98,
+        "paperId":168,
+        "firstAuthor":"Bigras, Emile",
+        "title":"Recommendation Agent Adoption: How Recommendation Presentation Influences Employees' Perceptions, Behaviors, and Decision Quality",
+        "year":2019,
+        "venue":"APPLIED SCIENCES-BASEL",
+        "domain":"E-Commerce",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Other",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":99,
+        "paperId":169,
+        "firstAuthor":"Tran, Thi Ngoc Trang",
+        "title":"Social Choice-based Explanations: An Approach to Enhancing Fairness and Consensus Aspects",
+        "year":2020,
+        "venue":"Journal of Universal Computer Science",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Efficiency",
+            "Other",
+            "Satisfaction"
+        ],
+        "userCharacteristic":[
+            "Gender"
+        ],
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":100,
+        "paperId":170,
+        "firstAuthor":"Gunaratne, J.",
+        "title":"The Persuasive Power of Algorithmic and Crowdsourced Advice",
+        "year":2018,
+        "venue":"JOURNAL OF MANAGEMENT INFORMATION SYSTEMS",
+        "domain":"Banking",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Persuasiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":101,
+        "paperId":171,
+        "firstAuthor":"Buccinca, Zana",
+        "title":"Proxy tasks and subjective measures can be misleading in evaluating explainable AI systems",
+        "year":2020,
+        "venue":"IUI",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Explanation Preference",
+            "Perceived Explanation Quality",
+            "Transparency",
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":102,
+        "paperId":172,
+        "firstAuthor":"Tsai, Chun-Hua",
+        "title":"Evaluating Visual Explanations for Similarity-Based Recommendations: User Perception and Performance",
+        "year":2019,
+        "venue":"UMAP",
+        "domain":"Social",
+        "recommenderType":"Collaborative Filtering",
+        "effects":[
+            "Effectiveness",
+            "Other",
+            "Perceived Explanation Quality",
+            "Transparency",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Tabular",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":103,
+        "paperId":173,
+        "firstAuthor":"Berkovsky, S.",
+        "title":"A Cross-Cultural Analysis of Trust in Recommender Systems",
+        "year":2018,
+        "venue":"UMAP",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Transparency",
+            "Trust"
+        ],
+        "userCharacteristic":[
+            "Country Of Residence"
+        ],
+        "modalities":[
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":104,
+        "paperId":174,
+        "firstAuthor":"Barria-Pineda, J.",
+        "title":"Making Educational Recommendations Transparent through a Fine-Grained Open Learner Model",
+        "year":2019,
+        "venue":"IUI",
+        "domain":"Education",
+        "recommenderType":null,
+        "effects":[
+            "Persuasiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":105,
+        "paperId":175,
+        "firstAuthor":"Abdulrahman, Amal",
+        "title":"Belief-based Agent Explanations to Encourage Behaviour Change",
+        "year":2019,
+        "venue":"Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Other",
+            "Persuasiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":106,
+        "paperId":176,
+        "firstAuthor":"Zhang, Jingjing",
+        "title":"Exploring Explanation Effects on Consumers\u2019 Trust in Online Recommender Agents",
+        "year":2018,
+        "venue":"International Journal of Human\u2013Computer Interaction",
+        "domain":"E-Commerce",
+        "recommenderType":"Content-Based",
+        "effects":[
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":107,
+        "paperId":177,
+        "firstAuthor":"Naveed, Sidra",
+        "title":"Argumentation-Based Explanations in Recommender Systems: Conceptual Framework and Empirical Results",
+        "year":2018,
+        "venue":"UMAP",
+        "domain":"E-Commerce",
+        "recommenderType":null,
+        "effects":[
+            "Perceived Explanation Quality",
+            "Satisfaction",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":[
+            "Rationality"
+        ],
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":108,
+        "paperId":178,
+        "firstAuthor":"Loepp, B.",
+        "title":"Interactive recommending with Tag-Enhanced Matrix Factorization (TagMF)",
+        "year":2019,
+        "venue":"INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES",
+        "domain":"Movie",
+        "recommenderType":"Collaborative Filtering",
+        "effects":[
+            "Transparency"
+        ],
+        "userCharacteristic":[
+            "Domain Knowledge",
+            "Trust In Technology"
+        ],
+        "modalities":[
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":109,
+        "paperId":179,
+        "firstAuthor":"Gai, Phyliss Jia",
+        "title":"Making Recommendations More Effective Through Framings: Impacts of User- Versus Item-Based Framings on Recommendation Click-Throughs",
+        "year":2019,
+        "venue":"Journal of Marketing",
+        "domain":"Multiple",
+        "recommenderType":null,
+        "effects":[
+            "Other",
+            "Persuasiveness",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":110,
+        "paperId":180,
+        "firstAuthor":"Rana, Arpit",
+        "title":"Explanations that are Intrinsic to Recommendations",
+        "year":2018,
+        "venue":"UMAP",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":111,
+        "paperId":181,
+        "firstAuthor":"Noorbehbahani, F.",
+        "title":"The Impact of Demographic Factors on Persuasion Strategies in Personalized Recommender System",
+        "year":2018,
+        "venue":"2018 8th International Conference on Computer and Knowledge Engineering (ICCKE)",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":112,
+        "paperId":182,
+        "firstAuthor":"Sullivan, Emily",
+        "title":"Reading News with a Purpose: Explaining User Profiles for Self-Actualization",
+        "year":2019,
+        "venue":"UMAP",
+        "domain":"News",
+        "recommenderType":"Content-Based",
+        "effects":[
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":113,
+        "paperId":183,
+        "firstAuthor":"Bellini, Vito",
+        "title":"Knowledge-aware Autoencoders for Explainable Recommender Systems",
+        "year":2018,
+        "venue":"DLRS 2018: 3rd Workshop on Deep Learning for Recommender Systems",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness",
+            "Persuasiveness",
+            "Transparency",
+            "Trust"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic",
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":114,
+        "paperId":184,
+        "firstAuthor":"Du, Fan",
+        "title":"Personalizable and Interactive Sequence Recommender System",
+        "year":2018,
+        "venue":"CHI",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Other",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":115,
+        "paperId":185,
+        "firstAuthor":"Sun, Yuan",
+        "title":"Exploring the Effects of Interactive Dialogue in Improving User Control for Explainable Online Symptom Checkers",
+        "year":2022,
+        "venue":"CHI",
+        "domain":"Health",
+        "recommenderType":null,
+        "effects":[
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":116,
+        "paperId":186,
+        "firstAuthor":"Radensky, Marissa ",
+        "title":"Exploring the Role of Local and Global Explanations in Recommender Systems",
+        "year":2022,
+        "venue":"CHI",
+        "domain":"Document",
+        "recommenderType":null,
+        "effects":[
+            "Transparency",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":117,
+        "paperId":187,
+        "firstAuthor":"Yang, Aobo",
+        "title":"Explanation as a Defense of Recommendation",
+        "year":2021,
+        "venue":"WSDM",
+        "domain":"POI",
+        "recommenderType":null,
+        "effects":[
+            "Transparency"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":118,
+        "paperId":188,
+        "firstAuthor":"Chen, Li",
+        "title":"User Evaluations on Sentiment-based Recommendation Explanations",
+        "year":2019,
+        "venue":"ACM TRANSACTIONS ON INTERACTIVE INTELLIGENT SYSTEMS",
+        "domain":"E-Commerce",
+        "recommenderType":null,
+        "effects":[
+            "Other",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":119,
+        "paperId":189,
+        "firstAuthor":"Barbu, Catalin-Mihai",
+        "title":"The influence of trust cues on the trustworthiness of online reviews for recommendations",
+        "year":2019,
+        "venue":"SAC",
+        "domain":"E-Commerce",
+        "recommenderType":null,
+        "effects":[
+            "Persuasiveness",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":120,
+        "paperId":190,
+        "firstAuthor":"Tintarev, Nava",
+        "title":"Knowing the unknown: visualising consumption blind-spots in recommender systems.",
+        "year":2018,
+        "venue":"Annual ACM Symposium on Applied Computing",
+        "domain":"Movie",
+        "recommenderType":null,
+        "effects":[
+            "Transparency"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Visual"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":121,
+        "paperId":191,
+        "firstAuthor":"Starke, Alain D.",
+        "title":"The Effectiveness of Advice Solicitation and Social Peers in an Energy Recommender System",
+        "year":2019,
+        "venue":"RecSys",
+        "domain":"Energy Saving",
+        "recommenderType":null,
+        "effects":[
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+            "Post-Hoc"
+        ]
+    },
+    {
+        "key":122,
+        "paperId":192,
+        "firstAuthor":"Andjelkovic, I.",
+        "title":"Moodplay: Interactive music recommendation based on Artists' mood similarity",
+        "year":2019,
+        "venue":"INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES",
+        "domain":"Music",
+        "recommenderType":"Content-Based",
+        "effects":[
+            "Other",
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType":[
+            "Model-Intrinsic"
+        ]
+    },
+    {
+        "key":123,
+        "paperId":193,
+        "firstAuthor":"Afridi, Ahmad Hassan",
+        "title":"Transparency for Beyond-Accuracy Experiences A Novel User Interface for Recommender Systems",
+        "year":2019,
+        "venue":"10TH INTERNATIONAL CONFERENCE ON AMBIENT SYSTEMS, NETWORKS AND TECHNOLOGIES (ANT 2019) \/ THE 2ND INTERNATIONAL CONFERENCE ON EMERGING DATA AND INDUSTRY 4.0 (EDI40 2019) \/ AFFILIATED WORKSHOPS",
+        "domain":"Education",
+        "recommenderType":null,
+        "effects":[
+            "Transparency",
+            "Trust",
+            "Usability\/UX"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid"
+        ],
+        "explainabilityType":[
+
+        ]
+    },
+    {
+        "key":124,
+        "paperId":195,
+        "firstAuthor":"Thill, Serge",
+        "title":"Driver adherence to recommendations from support systems improves if the systems explain why they are given: A simulator study",
+        "year":2018,
+        "venue":"TRANSPORTATION RESEARCH PART F-TRAFFIC PSYCHOLOGY AND BEHAVIOUR",
+        "domain":"Driving",
+        "recommenderType":null,
+        "effects":[
+            "Effectiveness"
+        ],
+        "userCharacteristic":null,
+        "modalities":[
+            "Hybrid",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType":[
+
+        ]
+    }
+]

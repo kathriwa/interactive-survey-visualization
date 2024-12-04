@@ -1,0 +1,4510 @@
+[
+    {
+        "key": 1,
+        "userCharacteristic": "Age",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Movie"
+        ],
+        "modality": [
+            "Textual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Hybrid"
+        ],
+        "paperId": [
+            128
+        ],
+        "level2": [
+            {
+                "paperId": 128,
+                "title": "Why or Why Not? The Effect of Justification Styles on Chatbot Recommendations",
+                "firstAuthor": "Wilkinson, Daricia",
+                "venue": "ACM Transactions on Information Systems",
+                "url": "https://dl.acm.org/doi/10.1145/3441715",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Movie",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 2,
+        "userCharacteristic": "Age",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Health"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [],
+        "paperId": [
+            64
+        ],
+        "level2": [
+            {
+                "paperId": 64,
+                "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
+                "firstAuthor": "Nelekar, Shreeya ",
+                "venue": "British Journal of Educational Technology",
+                "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            }
+        ]
+    },
+    {
+        "key": 3,
+        "userCharacteristic": "Agreeableness",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Textual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [],
+        "paperId": [
+            89,
+            135
+        ],
+        "level2": [
+            {
+                "paperId": 89,
+                "title": "Factors Influencing Privacy Concern for Explanations of Group Recommendation",
+                "firstAuthor": "Najafian, Shabnam",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3450613.3456845",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            },
+            {
+                "paperId": 135,
+                "title": "Exploring User Concerns about Disclosing Location and Emotion Information in Group Recommendations",
+                "firstAuthor": "Najafian, Shabnam",
+                "venue": "HT",
+                "url": "https://dl.acm.org/doi/10.1145/3465336.3475104",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "None"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 4,
+        "userCharacteristic": "Agreeableness",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Health"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            67
+        ],
+        "level2": [
+            {
+                "paperId": 67,
+                "title": "Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
+                "firstAuthor": "Abdulrahman, Amal",
+                "venue": "Behaviour & Information Technology",
+                "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2022.2073269",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 5,
+        "userCharacteristic": "Conscientiousness",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Music"
+        ],
+        "modality": [
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Hybrid"
+        ],
+        "paperId": [
+            157
+        ],
+        "level2": [
+            {
+                "paperId": 157,
+                "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
+                "firstAuthor": "Kouki, Pigi",
+                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "url": "https://doi.org/10.1145/3365843",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Music",
+                "modality": [
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 6,
+        "userCharacteristic": "Conscientiousness",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Health"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            64,
+            67
+        ],
+        "level2": [
+            {
+                "paperId": 64,
+                "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
+                "firstAuthor": "Nelekar, Shreeya ",
+                "venue": "British Journal of Educational Technology",
+                "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            },
+            {
+                "paperId": 67,
+                "title": "Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
+                "firstAuthor": "Abdulrahman, Amal",
+                "venue": "Behaviour & Information Technology",
+                "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2022.2073269",
+                "effectFound": [
+                    "No",
+                    "Yes"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 7,
+        "userCharacteristic": "Country Of Residence",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Movie"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [],
+        "paperId": [
+            173
+        ],
+        "level2": [
+            {
+                "paperId": 173,
+                "title": "A Cross-Cultural Analysis of Trust in Recommender Systems",
+                "firstAuthor": "Berkovsky, S.",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3209219.3209251",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Movie",
+                "modality": [
+                    "Hybrid",
+                    "Textual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "None"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 8,
+        "userCharacteristic": "Country Of Residence",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Movie"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [],
+        "paperId": [
+            173
+        ],
+        "level2": [
+            {
+                "paperId": 173,
+                "title": "A Cross-Cultural Analysis of Trust in Recommender Systems",
+                "firstAuthor": "Berkovsky, S.",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3209219.3209251",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Movie",
+                "modality": [
+                    "Hybrid",
+                    "Textual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "None"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 9,
+        "userCharacteristic": "Decision-Making Strategy",
+        "measuredEffect": "Effectiveness",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Schematic",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            145,
+            139
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Schematic",
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 10,
+        "userCharacteristic": "Decision-Making Strategy",
+        "measuredEffect": "Efficiency",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            145
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 11,
+        "userCharacteristic": "Decision-Making Strategy",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Schematic",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            145,
+            139,
+            167
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Schematic",
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 167,
+                "title": "Decision Making Strategies Differ in the Presence of Collaborative Explanations: Two Conjoint Studies",
+                "firstAuthor": "Coba, Ludovik",
+                "venue": "IUI",
+                "url": "https://doi.org/10.1145/3301275.3302304",
+                "effectFound": [
+                    "No",
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "None"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 12,
+        "userCharacteristic": "Decision-Making Strategy",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Schematic",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            145,
+            139
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Schematic",
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 13,
+        "userCharacteristic": "Decision-Making Strategy",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Schematic",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            145,
+            139
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Schematic",
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 14,
+        "userCharacteristic": "Decision-Making Strategy",
+        "measuredEffect": "Usability/Ux",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            139
+        ],
+        "level2": [
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 15,
+        "userCharacteristic": "Domain Knowledge",
+        "measuredEffect": "Effectiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 16,
+        "userCharacteristic": "Domain Knowledge",
+        "measuredEffect": "Efficiency",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 17,
+        "userCharacteristic": "Domain Knowledge",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Music"
+        ],
+        "modality": [
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Hybrid"
+        ],
+        "paperId": [
+            157
+        ],
+        "level2": [
+            {
+                "paperId": 157,
+                "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
+                "firstAuthor": "Kouki, Pigi",
+                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "url": "https://doi.org/10.1145/3365843",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Music",
+                "modality": [
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 18,
+        "userCharacteristic": "Domain Knowledge",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Music"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Content-Based",
+            "Hybrid"
+        ],
+        "paperId": [
+            82,
+            157
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 157,
+                "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
+                "firstAuthor": "Kouki, Pigi",
+                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "url": "https://doi.org/10.1145/3365843",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Music",
+                "modality": [
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 19,
+        "userCharacteristic": "Domain Knowledge",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Movie"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Collaborative Filtering",
+            "Content-Based"
+        ],
+        "paperId": [
+            178,
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 178,
+                "title": "Interactive recommending with Tag-Enhanced Matrix Factorization (TagMF)",
+                "firstAuthor": "Loepp, B.",
+                "venue": "INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES",
+                "url": "https://doi.org/10.1016/j.ijhcs.2018.05.002",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Movie",
+                "modality": [
+                    "Visual"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Collaborative Filtering"
+                ]
+            },
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 20,
+        "userCharacteristic": "Domain Knowledge",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 21,
+        "userCharacteristic": "Domain Knowledge",
+        "measuredEffect": "Usability/Ux",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 22,
+        "userCharacteristic": "Extraversion",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Textual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [],
+        "paperId": [
+            135
+        ],
+        "level2": [
+            {
+                "paperId": 135,
+                "title": "Exploring User Concerns about Disclosing Location and Emotion Information in Group Recommendations",
+                "firstAuthor": "Najafian, Shabnam",
+                "venue": "HT",
+                "url": "https://dl.acm.org/doi/10.1145/3465336.3475104",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "None"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 23,
+        "userCharacteristic": "Extraversion",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Health"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            64,
+            67
+        ],
+        "level2": [
+            {
+                "paperId": 64,
+                "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
+                "firstAuthor": "Nelekar, Shreeya ",
+                "venue": "British Journal of Educational Technology",
+                "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            },
+            {
+                "paperId": 67,
+                "title": "Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
+                "firstAuthor": "Abdulrahman, Amal",
+                "venue": "Behaviour & Information Technology",
+                "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2022.2073269",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 24,
+        "userCharacteristic": "Gender",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Movie",
+            "Online Dating",
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based",
+            "Hybrid"
+        ],
+        "paperId": [
+            128,
+            130,
+            167
+        ],
+        "level2": [
+            {
+                "paperId": 128,
+                "title": "Why or Why Not? The Effect of Justification Styles on Chatbot Recommendations",
+                "firstAuthor": "Wilkinson, Daricia",
+                "venue": "ACM Transactions on Information Systems",
+                "url": "https://dl.acm.org/doi/10.1145/3441715",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Movie",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            },
+            {
+                "paperId": 130,
+                "title": "Providing explanations for recommendations in reciprocal environments",
+                "firstAuthor": "Kleinerman, Akiva",
+                "venue": "RecSys",
+                "url": "https://dl.acm.org/doi/10.1145/3240323.3240362",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Online Dating",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 167,
+                "title": "Decision Making Strategies Differ in the Presence of Collaborative Explanations: Two Conjoint Studies",
+                "firstAuthor": "Coba, Ludovik",
+                "venue": "IUI",
+                "url": "https://doi.org/10.1145/3301275.3302304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "None"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 25,
+        "userCharacteristic": "Gender",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Health"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [],
+        "paperId": [
+            64
+        ],
+        "level2": [
+            {
+                "paperId": 64,
+                "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
+                "firstAuthor": "Nelekar, Shreeya ",
+                "venue": "British Journal of Educational Technology",
+                "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            }
+        ]
+    },
+    {
+        "key": 26,
+        "userCharacteristic": "Gender",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Collaborative Filtering"
+        ],
+        "paperId": [
+            99
+        ],
+        "level2": [
+            {
+                "paperId": 99,
+                "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
+                "firstAuthor": "Ma, Boxuan",
+                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Education",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Collaborative Filtering"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 27,
+        "userCharacteristic": "Gender",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Collaborative Filtering"
+        ],
+        "paperId": [
+            99
+        ],
+        "level2": [
+            {
+                "paperId": 99,
+                "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
+                "firstAuthor": "Ma, Boxuan",
+                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Education",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Collaborative Filtering"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 28,
+        "userCharacteristic": "Gender",
+        "measuredEffect": "Usability/Ux",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Education",
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Collaborative Filtering"
+        ],
+        "paperId": [
+            169,
+            99
+        ],
+        "level2": [
+            {
+                "paperId": 169,
+                "title": "Social Choice-based Explanations: An Approach to Enhancing Fairness and Consensus Aspects",
+                "firstAuthor": "Tran, Thi Ngoc Trang",
+                "venue": "Journal of Universal Computer Science",
+                "url": "https://pdfs.semanticscholar.org/2b4f/ddb49f00b60980fa6cc96f6ef4f4d27ad719.pdf",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "None"
+                ]
+            },
+            {
+                "paperId": 99,
+                "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
+                "firstAuthor": "Ma, Boxuan",
+                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Education",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Collaborative Filtering"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 29,
+        "userCharacteristic": "Level Of Education",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Collaborative Filtering",
+            "Hybrid"
+        ],
+        "paperId": [
+            99,
+            111
+        ],
+        "level2": [
+            {
+                "paperId": 99,
+                "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
+                "firstAuthor": "Ma, Boxuan",
+                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Education",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Collaborative Filtering"
+                ]
+            },
+            {
+                "paperId": 111,
+                "title": "The role of transparency in multi-stakeholder educational recommendations",
+                "firstAuthor": "Zheng, Yong",
+                "venue": "User Modeling and User-Adapted Interaction",
+                "url": "https://link.springer.com/article/10.1007/s11257-021-09291-x",
+                "effectFound": [
+                    "No",
+                    "Yes"
+                ],
+                "domain": "Education",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 30,
+        "userCharacteristic": "Level Of Education",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Collaborative Filtering"
+        ],
+        "paperId": [
+            99
+        ],
+        "level2": [
+            {
+                "paperId": 99,
+                "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
+                "firstAuthor": "Ma, Boxuan",
+                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Education",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Collaborative Filtering"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 31,
+        "userCharacteristic": "Level Of Education",
+        "measuredEffect": "Usability/Ux",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Collaborative Filtering"
+        ],
+        "paperId": [
+            99
+        ],
+        "level2": [
+            {
+                "paperId": 99,
+                "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
+                "firstAuthor": "Ma, Boxuan",
+                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Education",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Collaborative Filtering"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 32,
+        "userCharacteristic": "Need For Cognition",
+        "measuredEffect": "Effectiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 33,
+        "userCharacteristic": "Need For Cognition",
+        "measuredEffect": "Efficiency",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 34,
+        "userCharacteristic": "Need For Cognition",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "E-Commerce",
+            "Music"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based",
+            "Hybrid"
+        ],
+        "paperId": [
+            33,
+            154,
+            127
+        ],
+        "level2": [
+            {
+                "paperId": 33,
+                "title": "\u201cKnowing me, knowing you\u201d: personalized explanations for a music recommender system",
+                "firstAuthor": "Millecamp, Martijn",
+                "venue": "User Modeling and User-Adapted Interaction",
+                "url": "https://link.springer.com/article/10.1007/s11257-021-09304-9",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Music",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 154,
+                "title": "What's in a User? Towards Personalising Transparency for Music Recommender Interfaces",
+                "firstAuthor": "Millecamp, Martijn",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3340631.3394844",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Music",
+                "modality": [
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            },
+            {
+                "paperId": 127,
+                "title": "When E-Commerce Personalization Systems Show and Tell: Investigating the Relative Persuasive Appeal of Content-Based versus Collaborative Filtering",
+                "firstAuthor": "Liao, Mengqi",
+                "venue": "Journal of Advertising",
+                "url": "https://www.tandfonline.com/doi/full/10.1080/00913367.2021.1887013",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "E-Commerce",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 35,
+        "userCharacteristic": "Need For Cognition",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 36,
+        "userCharacteristic": "Need For Cognition",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Health",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            41,
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 41,
+                "title": "Do People Engage Cognitively with AI? Impact of AI Assistance on Incidental Learning",
+                "firstAuthor": "Gajos, Krzysztof Z.",
+                "venue": "IUI",
+                "url": "https://dl.acm.org/doi/10.1145/3490099.3511138",
+                "effectFound": [
+                    "No",
+                    "Yes"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            },
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 37,
+        "userCharacteristic": "Need For Cognition",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 38,
+        "userCharacteristic": "Need For Cognition",
+        "measuredEffect": "Usability/Ux",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 39,
+        "userCharacteristic": "Neuroticism",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Textual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [],
+        "paperId": [
+            89,
+            135
+        ],
+        "level2": [
+            {
+                "paperId": 89,
+                "title": "Factors Influencing Privacy Concern for Explanations of Group Recommendation",
+                "firstAuthor": "Najafian, Shabnam",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3450613.3456845",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            },
+            {
+                "paperId": 135,
+                "title": "Exploring User Concerns about Disclosing Location and Emotion Information in Group Recommendations",
+                "firstAuthor": "Najafian, Shabnam",
+                "venue": "HT",
+                "url": "https://dl.acm.org/doi/10.1145/3465336.3475104",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "None"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 40,
+        "userCharacteristic": "Neuroticism",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Health",
+            "Music"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Content-Based",
+            "Hybrid"
+        ],
+        "paperId": [
+            64,
+            67,
+            157
+        ],
+        "level2": [
+            {
+                "paperId": 64,
+                "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
+                "firstAuthor": "Nelekar, Shreeya ",
+                "venue": "British Journal of Educational Technology",
+                "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            },
+            {
+                "paperId": 67,
+                "title": "Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
+                "firstAuthor": "Abdulrahman, Amal",
+                "venue": "Behaviour & Information Technology",
+                "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2022.2073269",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 157,
+                "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
+                "firstAuthor": "Kouki, Pigi",
+                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "url": "https://doi.org/10.1145/3365843",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Music",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 41,
+        "userCharacteristic": "Openness",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Music"
+        ],
+        "modality": [
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Hybrid"
+        ],
+        "paperId": [
+            157
+        ],
+        "level2": [
+            {
+                "paperId": 157,
+                "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
+                "firstAuthor": "Kouki, Pigi",
+                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "url": "https://doi.org/10.1145/3365843",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Music",
+                "modality": [
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 42,
+        "userCharacteristic": "Openness",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Health"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            67
+        ],
+        "level2": [
+            {
+                "paperId": 67,
+                "title": "Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
+                "firstAuthor": "Abdulrahman, Amal",
+                "venue": "Behaviour & Information Technology",
+                "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2022.2073269",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 43,
+        "userCharacteristic": "Personal Innovativeness",
+        "measuredEffect": "Effectiveness",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 44,
+        "userCharacteristic": "Personal Innovativeness",
+        "measuredEffect": "Efficiency",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 45,
+        "userCharacteristic": "Personal Innovativeness",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 46,
+        "userCharacteristic": "Personal Innovativeness",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 47,
+        "userCharacteristic": "Personal Innovativeness",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 48,
+        "userCharacteristic": "Personal Innovativeness",
+        "measuredEffect": "Usability/Ux",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No",
+                    "Yes"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 49,
+        "userCharacteristic": "Propensity To Trust Others",
+        "measuredEffect": "Effectiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 50,
+        "userCharacteristic": "Propensity To Trust Others",
+        "measuredEffect": "Efficiency",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 51,
+        "userCharacteristic": "Propensity To Trust Others",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 52,
+        "userCharacteristic": "Propensity To Trust Others",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 53,
+        "userCharacteristic": "Propensity To Trust Others",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Health"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            64,
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 64,
+                "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
+                "firstAuthor": "Nelekar, Shreeya ",
+                "venue": "British Journal of Educational Technology",
+                "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            },
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 54,
+        "userCharacteristic": "Propensity To Trust Others",
+        "measuredEffect": "Usability/Ux",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document"
+        ],
+        "modality": [
+            "Hybrid"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No",
+                    "Yes"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 55,
+        "userCharacteristic": "Rationality",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Textual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [],
+        "paperId": [
+            138
+        ],
+        "level2": [
+            {
+                "paperId": 138,
+                "title": "Effects of Argumentative Explanation Types on the Perception of Review-Based Recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C.",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3386392.3399302",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "None"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 56,
+        "userCharacteristic": "Rationality",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "E-Commerce"
+        ],
+        "modality": [
+            "Textual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [],
+        "paperId": [
+            177
+        ],
+        "level2": [
+            {
+                "paperId": 177,
+                "title": "Argumentation-Based Explanations in Recommender Systems: Conceptual Framework and Empirical Results",
+                "firstAuthor": "Naveed, Sidra",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3213586.3225240",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "E-Commerce",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            }
+        ]
+    },
+    {
+        "key": 57,
+        "userCharacteristic": "Social Awareness",
+        "measuredEffect": "Effectiveness",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Schematic",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            145,
+            139
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Schematic",
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 58,
+        "userCharacteristic": "Social Awareness",
+        "measuredEffect": "Efficiency",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            145
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 59,
+        "userCharacteristic": "Social Awareness",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Schematic",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            145,
+            138,
+            139
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 138,
+                "title": "Effects of Argumentative Explanation Types on the Perception of Review-Based Recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C.",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3386392.3399302",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "None"
+                ]
+            },
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Schematic",
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 60,
+        "userCharacteristic": "Social Awareness",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Schematic",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            139
+        ],
+        "level2": [
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Schematic",
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 61,
+        "userCharacteristic": "Social Awareness",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Energy Saving",
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Numerical",
+            "Schematic",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            145,
+            106,
+            139
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 106,
+                "title": "Promoting Energy-Efficient Behavior by Depicting Social Norms in a Recommender Interface",
+                "firstAuthor": "Starke, Alain",
+                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "url": "https://dl.acm.org/doi/10.1145/3460005",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Energy Saving",
+                "modality": [
+                    "Hybrid",
+                    "Numerical"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": []
+            },
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Schematic",
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 62,
+        "userCharacteristic": "Social Awareness",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "POI"
+        ],
+        "modality": [
+            "Hybrid",
+            "Schematic",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            145,
+            138,
+            139
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 138,
+                "title": "Effects of Argumentative Explanation Types on the Perception of Review-Based Recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C.",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3386392.3399302",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "None"
+                ]
+            },
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Schematic",
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 63,
+        "userCharacteristic": "Technical Expertise",
+        "measuredEffect": "Effectiveness",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Health",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            104,
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 104,
+                "title": "How machine-learning recommendations influence clinician treatment selections: the example of antidepressant selection",
+                "firstAuthor": "Jacobs, Maia",
+                "venue": "Translational Psychiatry",
+                "url": "https://www.nature.com/articles/s41398-021-01224-x",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Health",
+                "modality": [
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": []
+            },
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 64,
+        "userCharacteristic": "Technical Expertise",
+        "measuredEffect": "Efficiency",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 65,
+        "userCharacteristic": "Technical Expertise",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Music"
+        ],
+        "modality": [
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Hybrid"
+        ],
+        "paperId": [
+            157
+        ],
+        "level2": [
+            {
+                "paperId": 157,
+                "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
+                "firstAuthor": "Kouki, Pigi",
+                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "url": "https://doi.org/10.1145/3365843",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Music",
+                "modality": [
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 66,
+        "userCharacteristic": "Technical Expertise",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Music",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Content-Based",
+            "Hybrid"
+        ],
+        "paperId": [
+            82,
+            61,
+            157
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 157,
+                "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
+                "firstAuthor": "Kouki, Pigi",
+                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "url": "https://doi.org/10.1145/3365843",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Music",
+                "modality": [
+                    "Textual"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 67,
+        "userCharacteristic": "Technical Expertise",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 68,
+        "userCharacteristic": "Technical Expertise",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 69,
+        "userCharacteristic": "Technical Expertise",
+        "measuredEffect": "Usability/Ux",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 70,
+        "userCharacteristic": "Trust In Technology",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Movie"
+        ],
+        "modality": [
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic"
+        ],
+        "recommenderType": [
+            "Collaborative Filtering"
+        ],
+        "paperId": [
+            178
+        ],
+        "level2": [
+            {
+                "paperId": 178,
+                "title": "Interactive recommending with Tag-Enhanced Matrix Factorization (TagMF)",
+                "firstAuthor": "Loepp, B.",
+                "venue": "INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES",
+                "url": "https://doi.org/10.1016/j.ijhcs.2018.05.002",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Movie",
+                "modality": [
+                    "Visual"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Collaborative Filtering"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 71,
+        "userCharacteristic": "Valence",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "Yes"
+        ],
+        "domain": [
+            "Movie"
+        ],
+        "modality": [
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            158
+        ],
+        "level2": [
+            {
+                "paperId": 158,
+                "title": "Improved Explanatory Efficacy on Human Affect and Workload Through Interactive Process in Artificial Intelligence",
+                "firstAuthor": "Kim, Byung Hyung",
+                "venue": "IEEE Access",
+                "url": "https://doi.org/10.1109/ACCESS.2020.3032056",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Movie",
+                "modality": [
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 72,
+        "userCharacteristic": "Visualization Literacy",
+        "measuredEffect": "Effectiveness",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 73,
+        "userCharacteristic": "Visualization Literacy",
+        "measuredEffect": "Efficiency",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 74,
+        "userCharacteristic": "Visualization Literacy",
+        "measuredEffect": "Perceived Explanation Quality",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Music",
+            "POI"
+        ],
+        "modality": [
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Model-Intrinsic",
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based",
+            "Hybrid"
+        ],
+        "paperId": [
+            145,
+            157
+        ],
+        "level2": [
+            {
+                "paperId": 145,
+                "title": "Explaining Review-Based Recommendations: Effects of Profile Transparency, Presentation Style and User Characteristics",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "i-com",
+                "url": "https://www.degruyter.com/document/doi/10.1515/icom-2020-0021/html?lang=de#j_icom-2020-0021_ref_020",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 157,
+                "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
+                "firstAuthor": "Kouki, Pigi",
+                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "url": "https://doi.org/10.1145/3365843",
+                "effectFound": [
+                    "No",
+                    "Yes"
+                ],
+                "domain": "Music",
+                "modality": [
+                    "Visual"
+                ],
+                "explainabilityType": "Model-Intrinsic",
+                "recommenderType": [
+                    "Hybrid"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 75,
+        "userCharacteristic": "Visualization Literacy",
+        "measuredEffect": "Persuasiveness",
+        "effectFound": [
+            "No"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 76,
+        "userCharacteristic": "Visualization Literacy",
+        "measuredEffect": "Transparency",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid",
+                    "Textual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 77,
+        "userCharacteristic": "Visualization Literacy",
+        "measuredEffect": "Trust",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Visual"
+        ],
+        "explainabilityType": [],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    },
+    {
+        "key": 78,
+        "userCharacteristic": "Visualization Literacy",
+        "measuredEffect": "Usability/Ux",
+        "effectFound": [
+            "No",
+            "Yes"
+        ],
+        "domain": [
+            "Document",
+            "POI",
+            "Social"
+        ],
+        "modality": [
+            "Hybrid",
+            "Schematic",
+            "Textual",
+            "Visual"
+        ],
+        "explainabilityType": [
+            "Post-Hoc"
+        ],
+        "recommenderType": [
+            "Content-Based"
+        ],
+        "paperId": [
+            82,
+            139,
+            61
+        ],
+        "level2": [
+            {
+                "paperId": 82,
+                "title": "Explaining User Models with Different Levels of Detail for Transparent Recommendation: A User Study",
+                "firstAuthor": "Guesmi, Mouadh",
+                "venue": "UMAP",
+                "url": "https://doi.org/10.1145/3511047.3537685",
+                "effectFound": [
+                    "No",
+                    "Yes"
+                ],
+                "domain": "Document",
+                "modality": [
+                    "Hybrid"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 139,
+                "title": "Effects of interactivity and presentation on review-based explanations for recommendations",
+                "firstAuthor": "Hernandez-Bocanegra, Diana C. ",
+                "venue": "INTERACT",
+                "url": "https://arxiv.org/abs/2105.11794",
+                "effectFound": [
+                    "Yes"
+                ],
+                "domain": "POI",
+                "modality": [
+                    "Schematic",
+                    "Textual",
+                    "Visual"
+                ],
+                "explainabilityType": "Post-Hoc",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            },
+            {
+                "paperId": 61,
+                "title": "Is More Always Better? The Effects of Personal Characteristics and Level of Detail on the Perception of Explanations in a Recommender System",
+                "firstAuthor": "Chatti, Mohamed Amine",
+                "venue": "UMAP",
+                "url": "https://dl.acm.org/doi/10.1145/3503252.3531304",
+                "effectFound": [
+                    "No"
+                ],
+                "domain": "Social",
+                "modality": [
+                    "Hybrid",
+                    "Visual"
+                ],
+                "explainabilityType": "",
+                "recommenderType": [
+                    "Content-Based"
+                ]
+            }
+        ]
+    }
+]
