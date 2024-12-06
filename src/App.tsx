@@ -44,7 +44,7 @@ const getCurrentPageKey = (pathname: string) => {
   switch (pathname) {
     case '/':
       return '1';
-    case '/about':
+    case '/papers':
       return '2';
     case '/characteristics':
       return '3';
