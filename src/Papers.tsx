@@ -74,7 +74,6 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'User Characteristic',
         dataIndex: 'userCharacteristic',
         key: 'userCharacteristic',
-        // [nan 'Need For Cognition' 'Visualization Literacy' 'Personal Innovativeness' 'Technical Expertise' 'Gender' 'Propensity To Trust Others' 'Age' 'Conscientiousness' 'Neuroticism' 'Extraversion' 'Openness' 'Agreeableness' 'Domain Knowledge' 'Level Of Education' 'Social Awareness' 'Rationality' 'Decision-Making Strategy' 'Valence' 'Country Of Residence' 'Trust In Technology']
         filters: [
           {
             text: 'Experience',
@@ -247,89 +246,88 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Domain',
         dataIndex: 'domain',
         key: 'domain',
-        // ['', 'App', 'Art', 'Banking', 'Book', 'Document', 'Driving', 'E-Commerce', 'Education', 'Energy Saving', 'Health', 'Job', 'Movie', 'Multiple', 'Music', 'News', 'Online Dating', 'POI', 'Programming', 'Social', 'Video Tag']
         filters: [
-            {
-              text: 'App',
-              value: 'App',
-            },
-            {
-              text: 'Art',
-              value: 'Art',
-            },
-            {
-              text: 'Banking',
-              value: 'Banking',
-            },
-            {
-              text: 'Book',
-              value: 'Book',
-            },
-            {
-              text: 'Document',
-              value: 'Document',
-            },
-            {
-              text: 'Driving',
-              value: 'Driving',
-            },
-            {
-              text: 'E-Commerce',
-              value: 'E-Commerce',
-            },
-            {
-              text: 'Education',
-              value: 'Education',
-            },
-            {
-              text: 'Energy Saving',
-              value: 'Energy Saving',
-            },
-            {
-              text: 'Health',
-              value: 'Health',
-            },
-            {
-              text: 'Job',
-              value: 'Job',
-            },
-            {
-              text: 'Movie',
-              value: 'Movie',
-            },
-            {
-              text: 'Multiple',
-              value: 'Multiple',
-            },
-            {
-              text: 'Music',
-              value: 'Music',
-            },
-            {
-              text: 'News',
-              value: 'News',
-            },
-            {
-              text: 'Online Dating',
-              value: 'Online Dating',
-            },
-            {
-              text: 'POI',
-              value: 'POI',
-            },
-            {
-              text: 'Programming',
-              value: 'Programming',
-            },
-            {
-              text: 'Social',
-              value: 'Social',
-            },
-            {
-              text: 'Video Tag',
-              value: 'Video Tag',
-            },
-          ],
+          {
+            text: 'App',
+            value: 'App',
+          },
+          {
+            text: 'Art',
+            value: 'Art',
+          },
+          {
+            text: 'Banking',
+            value: 'Banking',
+          },
+          {
+            text: 'Book',
+            value: 'Book',
+          },
+          {
+            text: 'Document',
+            value: 'Document',
+          },
+          {
+            text: 'Driving',
+            value: 'Driving',
+          },
+          {
+            text: 'E-Commerce',
+            value: 'E-Commerce',
+          },
+          {
+            text: 'Education',
+            value: 'Education',
+          },
+          {
+            text: 'Energy Saving',
+            value: 'Energy Saving',
+          },
+          {
+            text: 'Health',
+            value: 'Health',
+          },
+          {
+            text: 'Job',
+            value: 'Job',
+          },
+          {
+            text: 'Movie',
+            value: 'Movie',
+          },
+          {
+            text: 'Multiple',
+            value: 'Multiple',
+          },
+          {
+            text: 'Music',
+            value: 'Music',
+          },
+          {
+            text: 'News',
+            value: 'News',
+          },
+          {
+            text: 'Online Dating',
+            value: 'Online Dating',
+          },
+          {
+            text: 'POI',
+            value: 'POI',
+          },
+          {
+            text: 'Programming',
+            value: 'Programming',
+          },
+          {
+            text: 'Social',
+            value: 'Social',
+          },
+          {
+            text: 'Video Tag',
+            value: 'Video Tag',
+          },
+        ],
         filterSearch: true,
         onFilter: (value, record) => record.domain ? record.domain.includes(value as string) : false,
     },
@@ -337,7 +335,6 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Modalities',
         dataIndex: 'modalities',
         key: 'modality',
-        //  ['Textual' 'Hybrid' 'Visual' 'Audio' 'Numerical' 'Tabular' 'Not Mentioned' nan]
         filters: [
             {
               text: 'Audio',
@@ -363,20 +360,15 @@ const columns: TableProps<DataType>['columns'] = [
               text: 'Visual',
               value: 'Visual',
             },
-            {
-              text: 'Not Mentioned',
-              value: 'Not Mentioned',
-            }
           ],
         filterSearch: true,
-        render: (modalities: Array<string>) => modalities ? modalities.join(', ') : '',
         onFilter: (value, record) => record.modalities ? record.modalities.includes(value as string) : false,
+        render: (modalities: Array<string>) => modalities ? modalities.join(', ') : '',
     },
     {
         title: 'Explainability Type',
         dataIndex: 'explainabilityType',
         key: 'explainabilityType',
-        // ['Post-Hoc' nan 'Model-Intrinsic']
         filters: [
             {
               text: 'Model-Intrinsic',
