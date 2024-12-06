@@ -48,6 +48,8 @@ effectsXuser = effectsXuser.replace('-', np.nan)
 # Replace 'Poi' with 'POI' in 'domain'
 effectsXuser['domain'] = effectsXuser['domain'].replace('Poi', 'POI')
 
+# Replace 'Usability/Ux' with 'Usability/UX' in 'effectFound'
+effectsXuser['measuredEffect'] = effectsXuser['measuredEffect'].replace('Usability/Ux', 'Usability/UX')
 
 # Get all the destinct userCharacteristic and measuredEffectMainCategory
 # pairs and aggregate the rest to a list
