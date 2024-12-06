@@ -40,6 +40,35 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Venue',
         dataIndex: 'venue',
         key: 'venue',
+        filters: [
+          {
+            text: 'CHI',
+            value: 'CHI',
+          },
+          {
+            text: 'IUI',
+            value: 'IUI',
+          },
+          {
+            text: 'RecSys',
+            value: 'RecSys',
+          },
+          {
+            text: 'UMAP',
+            value: 'UMAP',
+          },
+          {
+            text: 'Other',
+            value: 'Other',
+          }
+        ],
+      filterSearch: true,
+      onFilter: (value, record) => {
+        if (value === 'Other') {
+          return record.venue ? ['CHI', 'IUI', 'RecSys', 'UMAP'].every(v => !record.venue.includes(v)) : false
+        }
+        return record.venue ? record.venue.includes(value as string) : false
+      }
     },
     {
         title: 'User Characteristic',
@@ -52,17 +81,17 @@ const columns: TableProps<DataType>['columns'] = [
             value: 'Experience',
             children: [
               {
-                text: 'Visualization Literacy',
-                value: 'Visualization Literacy',
+                text: 'Domain Knowledge',
+                value: 'Domain Knowledge',
               },
               {
                 text: 'Technical Expertise',
                 value: 'Technical Expertise',
               },
               {
-                text: 'Domain Knowledge',
-                value: 'Domain Knowledge',
-              }
+                text: 'Visualization Literacy',
+                value: 'Visualization Literacy',
+              },
             ]
           },
           {
@@ -70,21 +99,21 @@ const columns: TableProps<DataType>['columns'] = [
             value: 'Demographic',
             children: [
               {
-                text: 'Gender',
-                value: 'Gender'
-              },
-              {
                 text: 'Age',
                 value: 'Age'
+              },
+              {
+                text: 'Country Of Residence',
+                value: 'Country Of Residence'
+              },
+              {
+                text: 'Gender',
+                value: 'Gender'
               },
               {
                 text: 'Level Of Education',
                 value: 'Level Of Education'
               },
-              {
-                text: 'Country Of Residence',
-                value: 'Country Of Residence'
-              }
             ]
           },
           {
@@ -92,8 +121,32 @@ const columns: TableProps<DataType>['columns'] = [
             value: 'Personality',
             children: [
               {
+                text: 'Agreeableness',
+                value: 'Agreeableness',
+              },
+              {
+                text: 'Conscientiousness',
+                value: 'Conscientiousness',
+              },
+              {
+                text: 'Decision-Making Strategy',
+                value: 'Decision-Making Strategy',
+              },
+              {
+                text: 'Extraversion',
+                value: 'Extraversion',
+              },
+              {
                 text: 'Need For Cognition',
                 value: 'Need For Cognition',
+              },
+              {
+                text: 'Neuroticism',
+                value: 'Neuroticism',
+              },
+              {
+                text: 'Openness',
+                value: 'Openness',
               },
               {
                 text: 'Personal Innovativeness',
@@ -104,44 +157,20 @@ const columns: TableProps<DataType>['columns'] = [
                 value: 'Propensity To Trust Others',
               },
               {
-                text: 'Conscientiousness',
-                value: 'Conscientiousness',
-              },
-              {
-                text: 'Neuroticism',
-                value: 'Neuroticism',
-              },
-              {
-                text: 'Extraversion',
-                value: 'Extraversion',
-              },
-              {
-                text: 'Openness',
-                value: 'Openness',
-              },
-              {
-                text: 'Agreeableness',
-                value: 'Agreeableness',
+                text: 'Rationality',
+                value: 'Rationality',
               },
               {
                 text: 'Social Awareness',
                 value: 'Social Awareness',
               },
               {
-                text: 'Rationality',
-                value: 'Rationality',
-              },
-              {
-                text: 'Decision-Making Strategy',
-                value: 'Decision-Making Strategy',
+                text: 'Trust In Technology',
+                value: 'Trust In Technology',
               },
               {
                 text: 'Valence',
                 value: 'Valence',
-              },
-              {
-                text: 'Trust In Technology',
-                value: 'Trust In Technology',
               },
             ],
           }
@@ -167,35 +196,15 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Effects',
         dataIndex: 'effects',
         key: 'effects',
-        // ['Perceived Explanation Quality' 'Transparency' 'Persuasiveness' 'Usability/UX' 'Efficiency' 'Effectiveness' 'Trust']
+        // TODO: increase width of filder dropdown
         filters: [
-            {
-              text: 'Transparency',
-              value: 'Transparency',
-            },
-            {
-              text: 'Efficiency',
-              value: 'Efficiency',
-            },
-            {
-              text: 'Persuasiveness',
-              value: 'Persuasiveness',
-            },
-            {
-              text: 'Trust',
-              value: 'Trust',
-            },
             {
               text: 'Effectiveness',
               value: 'Effectiveness',
             },
             {
-              text: 'Usability/UX',
-              value: 'Usability/UX',
-            },
-            {
-              text: 'Satisfaction',
-              value: 'Satisfaction',
+              text: 'Efficiency',
+              value: 'Efficiency',
             },
             {
               text: 'Explanation Preference',
@@ -206,39 +215,67 @@ const columns: TableProps<DataType>['columns'] = [
               value: 'Perceived Explanation Quality',
             },
             {
+              text: 'Persuasiveness',
+              value: 'Persuasiveness',
+            },
+            {
+              text: 'Satisfaction',
+              value: 'Satisfaction',
+            },
+            {
+              text: 'Transparency',
+              value: 'Transparency',
+            },
+            {
+              text: 'Trust',
+              value: 'Trust',
+            },
+            {
+              text: 'Usability/UX',
+              value: 'Usability/UX',
+            },
+            {
               text: 'Other',
               value: 'Other',
             }
           ],
         filterSearch: true,
-        render: (effects: Array<string>) => effects ? effects.join(', ') : '',
         onFilter: (value, record) => record.effects ? record.effects.includes(value as string) : false,
+        render: (effects: Array<string>) => effects ? effects.join(', ') : '',
     },
     {
         title: 'Domain',
         dataIndex: 'domain',
         key: 'domain',
-        // ['Music' 'Health' 'Social' 'Document' 'Poi' 'Education' 'Energy Saving' 'E-Commerce' 'Movie' 'Online Dating']
+        // ['', 'App', 'Art', 'Banking', 'Book', 'Document', 'Driving', 'E-Commerce', 'Education', 'Energy Saving', 'Health', 'Job', 'Movie', 'Multiple', 'Music', 'News', 'Online Dating', 'POI', 'Programming', 'Social', 'Video Tag']
         filters: [
             {
-              text: 'Music',
-              value: 'Music',
+              text: 'App',
+              value: 'App',
             },
             {
-              text: 'Health',
-              value: 'Health',
+              text: 'Art',
+              value: 'Art',
             },
             {
-              text: 'Social',
-              value: 'Social',
+              text: 'Banking',
+              value: 'Banking',
+            },
+            {
+              text: 'Book',
+              value: 'Book',
             },
             {
               text: 'Document',
               value: 'Document',
             },
             {
-              text: 'Poi',
-              value: 'Poi',
+              text: 'Driving',
+              value: 'Driving',
+            },
+            {
+              text: 'E-Commerce',
+              value: 'E-Commerce',
             },
             {
               text: 'Education',
@@ -249,16 +286,48 @@ const columns: TableProps<DataType>['columns'] = [
               value: 'Energy Saving',
             },
             {
-              text: 'E-Commerce',
-              value: 'E-Commerce',
+              text: 'Health',
+              value: 'Health',
+            },
+            {
+              text: 'Job',
+              value: 'Job',
             },
             {
               text: 'Movie',
               value: 'Movie',
             },
             {
+              text: 'Multiple',
+              value: 'Multiple',
+            },
+            {
+              text: 'Music',
+              value: 'Music',
+            },
+            {
+              text: 'News',
+              value: 'News',
+            },
+            {
               text: 'Online Dating',
               value: 'Online Dating',
+            },
+            {
+              text: 'POI',
+              value: 'POI',
+            },
+            {
+              text: 'Programming',
+              value: 'Programming',
+            },
+            {
+              text: 'Social',
+              value: 'Social',
+            },
+            {
+              text: 'Video Tag',
+              value: 'Video Tag',
             },
           ],
         filterSearch: true,
@@ -271,20 +340,12 @@ const columns: TableProps<DataType>['columns'] = [
         //  ['Textual' 'Hybrid' 'Visual' 'Audio' 'Numerical' 'Tabular' 'Not Mentioned' nan]
         filters: [
             {
-              text: 'Hybrid',
-              value: 'Hybrid',
-            },
-            {
-              text: 'Textual',
-              value: 'Textual',
-            },
-            {
-              text: 'Visual',
-              value: 'Visual',
-            },
-            {
               text: 'Audio',
               value: 'Audio',
+            },
+            {
+              text: 'Hybrid',
+              value: 'Hybrid',
             },
             {
               text: 'Numerical',
@@ -293,6 +354,14 @@ const columns: TableProps<DataType>['columns'] = [
             {
               text: 'Tabular',
               value: 'Tabular',
+            },
+            {
+              text: 'Textual',
+              value: 'Textual',
+            },
+            {
+              text: 'Visual',
+              value: 'Visual',
             },
             {
               text: 'Not Mentioned',
@@ -310,12 +379,12 @@ const columns: TableProps<DataType>['columns'] = [
         // ['Post-Hoc' nan 'Model-Intrinsic']
         filters: [
             {
-              text: 'Post-Hoc',
-              value: 'Post-Hoc',
-            },
-            {
               text: 'Model-Intrinsic',
               value: 'Model-Intrinsic',
+            },
+            {
+              text: 'Post-Hoc',
+              value: 'Post-Hoc',
             },
           ],
         filterSearch: true,
@@ -325,23 +394,18 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Recommender Type',
         dataIndex: 'recommenderType',
         key: 'recommenderType',
-        // ['Content-Based' '-' 'Collaborative Filtering' 'Hybrid' 'None']
         filters: [
-            {
-              text: 'Content-Based',
-              value: 'Content-Based',
-            },
             {
               text: 'Collaborative Filtering',
               value: 'Collaborative Filtering',
             },
             {
-              text: 'Hybrid',
-              value: 'Hybrid',
+              text: 'Content-Based',
+              value: 'Content-Based',
             },
             {
-              text: 'None',
-              value: 'None',
+              text: 'Hybrid',
+              value: 'Hybrid',
             },
           ],
         filterSearch: true,
