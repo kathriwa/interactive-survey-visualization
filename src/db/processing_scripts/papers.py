@@ -104,6 +104,10 @@ assert all(
 # Convert 'displayModality' to title case
 modalities['displayModality'] = modalities['displayModality'].str.title()
 
+# Remove Not Mentioned from 'displayModality'
+modalities['displayModality'] = modalities['displayModality'].apply(
+    lambda x: x if x != 'Not Mentioned' else np.nan)
+
 # Ensure that only certain values are in the 'displayModality' column
 allowed_modalities = ['Text', 'Visual', 'Tabular', 'Graphical', 'Other']
 assert all(
@@ -111,7 +115,7 @@ assert all(
 
 # Aggregate 'displayModality' and 'modelInstrinsicOrPosthoc' columns by 'paperId'
 modalities = modalities.groupby('paperId').agg({
-    'displayModality': lambda x: sorted(list(set(x))),
+    'displayModality': lambda x: sorted([x for x in list(set(x)) if str(x) != 'nan']),
     'modelInstrinsicOrPosthoc': lambda x: list(set(x))
 }).reset_index()
 
