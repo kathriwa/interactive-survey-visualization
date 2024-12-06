@@ -9,7 +9,7 @@ interface DataType {
   effectFound: Array<string>;
   domain: Array<string>;
   modality: Array<string>;
-  explanationType: Array<string>;
+  explainabilityType: Array<string>;
   recommenderType: Array<string>;
   level2: Array<DataType2>;
 }
@@ -23,7 +23,7 @@ interface DataType2 {
   effectFound: Array<string>;
   domain: string;
   modality: Array<string>;
-  explanationType: string;
+  explainabilityType: string;
   recommenderType: Array<string>;
 }
 
@@ -35,18 +35,106 @@ const columns: TableProps<DataType>['columns'] = [
     key: 'userCharacteristic',
     filters: [
       {
-        text: 'Personality',
-        value: 'Personality',
-      },
-      {
         text: 'Experience',
         value: 'Experience',
+        children: [
+          {
+            text: 'Domain Knowledge',
+            value: 'Domain Knowledge',
+          },
+          {
+            text: 'Technical Expertise',
+            value: 'Technical Expertise',
+          },
+          {
+            text: 'Visualization Literacy',
+            value: 'Visualization Literacy',
+          },
+        ]
       },
       {
         text: 'Demographic',
         value: 'Demographic',
+        children: [
+          {
+            text: 'Age',
+            value: 'Age'
+          },
+          {
+            text: 'Country Of Residence',
+            value: 'Country Of Residence'
+          },
+          {
+            text: 'Gender',
+            value: 'Gender'
+          },
+          {
+            text: 'Level Of Education',
+            value: 'Level Of Education'
+          },
+        ]
+      },
+      {
+        text: 'Personality',
+        value: 'Personality',
+        children: [
+          {
+            text: 'Agreeableness',
+            value: 'Agreeableness',
+          },
+          {
+            text: 'Conscientiousness',
+            value: 'Conscientiousness',
+          },
+          {
+            text: 'Decision-Making Strategy',
+            value: 'Decision-Making Strategy',
+          },
+          {
+            text: 'Extraversion',
+            value: 'Extraversion',
+          },
+          {
+            text: 'Need For Cognition',
+            value: 'Need For Cognition',
+          },
+          {
+            text: 'Neuroticism',
+            value: 'Neuroticism',
+          },
+          {
+            text: 'Openness',
+            value: 'Openness',
+          },
+          {
+            text: 'Personal Innovativeness',
+            value: 'Personal Innovativeness',
+          },
+          {
+            text: 'Propensity To Trust Others',
+            value: 'Propensity To Trust Others',
+          },
+          {
+            text: 'Rationality',
+            value: 'Rationality',
+          },
+          {
+            text: 'Social Awareness',
+            value: 'Social Awareness',
+          },
+          {
+            text: 'Trust In Technology',
+            value: 'Trust In Technology',
+          },
+          {
+            text: 'Valence',
+            value: 'Valence',
+          },
+        ],
       }
     ],
+    filterMode: 'tree',
+    filterSearch: true,
     onFilter: (value, record) => {
         if (value === 'Personality') {
           // check if userCharacteristic is included in the array
@@ -58,13 +146,58 @@ const columns: TableProps<DataType>['columns'] = [
         if (value === 'Demographic') {
           return ['Gender', 'Age', 'Level Of Education', 'Country Of Residence'].includes(record.userCharacteristic)
         }
-        return false
+        return record.userCharacteristic ? record.userCharacteristic.includes(value as string) : false
       },
   },
   {
     title: 'Measured Effect',
     dataIndex: 'measuredEffect',
     key: 'measuredEffect',
+    // TODO: increase width of filder dropdown
+    filters: [
+      {
+        text: 'Effectiveness',
+        value: 'Effectiveness',
+      },
+      {
+        text: 'Efficiency',
+        value: 'Efficiency',
+      },
+      // {
+      //   text: 'Explanation Preference',
+      //   value: 'Explanation Preference',
+      // },
+      {
+        text: 'Perceived Explanation Quality',
+        value: 'Perceived Explanation Quality',
+      },
+      {
+        text: 'Persuasiveness',
+        value: 'Persuasiveness',
+      },
+      // {
+      //   text: 'Satisfaction',
+      //   value: 'Satisfaction',
+      // },
+      {
+        text: 'Transparency',
+        value: 'Transparency',
+      },
+      {
+        text: 'Trust',
+        value: 'Trust',
+      },
+      {
+        text: 'Usability/UX',
+        value: 'Usability/UX',
+      },
+      // {
+      //   text: 'Other',
+      //   value: 'Other',
+      // }
+    ],
+    filterSearch: true,
+    onFilter: (value, record) => record.measuredEffect ? record.measuredEffect.includes(value as string) : false,
   },
   {
     title: 'Effect Found',
@@ -72,19 +205,19 @@ const columns: TableProps<DataType>['columns'] = [
     key: 'effectFound',
     filters: [
       {
-        text: 'Yes',
-        value: 'Yes',
-      },
-      {
         text: 'No',
         value: 'No',
+      },
+      {
+        text: 'Yes',
+        value: 'Yes',
       },
       {
         text: 'Both',
         value: 'Both',
       }
     ],
-
+    filterSearch: true,
     onFilter: (value, record) => {
       if (value === 'Both') {
       return record.effectFound.includes('Yes') && record.effectFound.includes('No');
@@ -110,12 +243,124 @@ const columns: TableProps<DataType>['columns'] = [
     title: 'Domain',
     dataIndex: 'domain',
     key: 'domain',
+    filters: [
+      // {
+      //   text: 'App',
+      //   value: 'App',
+      // },
+      // {
+      //   text: 'Art',
+      //   value: 'Art',
+      // },
+      // {
+      //   text: 'Banking',
+      //   value: 'Banking',
+      // },
+      // {
+      //   text: 'Book',
+      //   value: 'Book',
+      // },
+      {
+        text: 'Document',
+        value: 'Document',
+      },
+      // {
+      //   text: 'Driving',
+      //   value: 'Driving',
+      // },
+      {
+        text: 'E-Commerce',
+        value: 'E-Commerce',
+      },
+      {
+        text: 'Education',
+        value: 'Education',
+      },
+      {
+        text: 'Energy Saving',
+        value: 'Energy Saving',
+      },
+      {
+        text: 'Health',
+        value: 'Health',
+      },
+      // {
+      //   text: 'Job',
+      //   value: 'Job',
+      // },
+      {
+        text: 'Movie',
+        value: 'Movie',
+      },
+      // {
+      //   text: 'Multiple',
+      //   value: 'Multiple',
+      // },
+      {
+        text: 'Music',
+        value: 'Music',
+      },
+      // {
+      //   text: 'News',
+      //   value: 'News',
+      // },
+      {
+        text: 'Online Dating',
+        value: 'Online Dating',
+      },
+      {
+        text: 'POI',
+        value: 'POI',
+      },
+      // {
+      //   text: 'Programming',
+      //   value: 'Programming',
+      // },
+      {
+        text: 'Social',
+        value: 'Social',
+      },
+      // {
+      //   text: 'Video Tag',
+      //   value: 'Video Tag',
+      // },
+    ],
+    filterSearch: true,
+    onFilter: (value, record) => record.domain ? record.domain.includes(value as string) : false,
     render: (domain: Array<string>) => domain.join(', '),
   },
   {
     title: 'Modality',
     dataIndex: 'modality',
     key: 'modality',
+    filters: [
+      // {
+      //   text: 'Audio',
+      //   value: 'Audio',
+      // },
+      {
+        text: 'Hybrid',
+        value: 'Hybrid',
+      },
+      {
+        text: 'Numerical',
+        value: 'Numerical',
+      },
+      // {
+      //   text: 'Tabular',
+      //   value: 'Tabular',
+      // },
+      {
+        text: 'Textual',
+        value: 'Textual',
+      },
+      {
+        text: 'Visual',
+        value: 'Visual',
+      },
+    ],
+    filterSearch: true,
+    onFilter: (value, record) => record.modality ? record.modality.includes(value as string) : false,
     render: (modality: Array<string>) => modality.join(', '),
 
   },
@@ -123,13 +368,40 @@ const columns: TableProps<DataType>['columns'] = [
     title: 'Explainability Type',
     dataIndex: 'explainabilityType',
     key: 'explainabilityType',
+    filters: [
+      {
+        text: 'Model-Intrinsic',
+        value: 'Model-Intrinsic',
+      },
+      {
+        text: 'Post-Hoc',
+        value: 'Post-Hoc',
+      },
+    ],
+    filterSearch: true,
+    onFilter: (value, record) => record.explainabilityType ? record.explainabilityType.includes(value as string) : false,
     render: (explainabilityType: Array<string>) => explainabilityType.join(', '),
-
   },
   {
     title: 'Recommender Type',
     dataIndex: 'recommenderType',
     key: 'recommenderType',
+    filters: [
+      {
+        text: 'Collaborative Filtering',
+        value: 'Collaborative Filtering',
+      },
+      {
+        text: 'Content-Based',
+        value: 'Content-Based',
+      },
+      {
+        text: 'Hybrid',
+        value: 'Hybrid',
+      },
+    ],
+    filterSearch: true,
+    onFilter: (value, record) => record.recommenderType ? record.recommenderType.includes(value as string) : false,
     render: (recommenderType: Array<string>) => recommenderType.join(', '),
 
   }
