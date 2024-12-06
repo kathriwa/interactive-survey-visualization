@@ -1739,7 +1739,6 @@
         "userCharacteristic":null,
         "modalities":[
             "Hybrid",
-            "Not Mentioned",
             "Textual"
         ],
         "explainabilityType":[

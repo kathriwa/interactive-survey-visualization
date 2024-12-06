@@ -710,7 +710,7 @@
     {
         "key": 14,
         "userCharacteristic": "Decision-Making Strategy",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "Yes"
         ],
@@ -1054,7 +1054,7 @@
     {
         "key": 21,
         "userCharacteristic": "Domain Knowledge",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No"
         ],
@@ -1402,7 +1402,7 @@
     {
         "key": 28,
         "userCharacteristic": "Gender",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "Yes"
         ],
@@ -1575,7 +1575,7 @@
     {
         "key": 31,
         "userCharacteristic": "Level Of Education",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "Yes"
         ],
@@ -2038,7 +2038,7 @@
     {
         "key": 38,
         "userCharacteristic": "Need For Cognition",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No"
         ],
@@ -2644,7 +2644,7 @@
     {
         "key": 48,
         "userCharacteristic": "Personal Innovativeness",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No",
             "Yes"
@@ -2933,7 +2933,7 @@
     {
         "key": 54,
         "userCharacteristic": "Propensity To Trust Others",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No",
             "Yes"
@@ -3882,7 +3882,7 @@
     {
         "key": 69,
         "userCharacteristic": "Technical Expertise",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No"
         ],
@@ -4419,7 +4419,7 @@
     {
         "key": 78,
         "userCharacteristic": "Visualization Literacy",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No",
             "Yes"
