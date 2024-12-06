@@ -74,7 +74,7 @@
         "year":2017,
         "venue":"IUI",
         "domain":"E-Commerce",
-        "recommenderType":"Unclear",
+        "recommenderType":"",
         "effects":[
             "Effectiveness",
             "Efficiency",
@@ -730,7 +730,7 @@
         "year":2021,
         "venue":"WSDM",
         "domain":"E-Commerce",
-        "recommenderType":"Unclear",
+        "recommenderType":"",
         "effects":[
             "Usability\/UX"
         ],
