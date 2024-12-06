@@ -42,6 +42,7 @@ papers['domainCategory'] = papers['domainCategory'].str.title()
 papers['recSysModelCategory'] = papers['recSysModelCategory'].str.title()
 papers['recSysModelCategory'] = papers['recSysModelCategory'].apply(
     lambda x: x if x != 'None' else np.nan)
+papers['recSysModelCategory'] = papers['recSysModelCategory'].str.replace('Unclear', '')
 papers['domainCategory'] = papers['domainCategory'].str.replace('-', '')
 papers['domainCategory'] = papers['domainCategory'].str.replace('Poi', 'POI')
 papers['domainCategory'] = papers['domainCategory'].str.replace(
@@ -140,7 +141,7 @@ df = df.rename(columns={'mainDvCategory': 'effects',
 df.insert(0, 'key', range(1, len(df) + 1))
 
 # show the number of rows with the different fields in domain
-print(df['domain'].value_counts())
+# print(df['domain'].value_counts())
 
 
 # print disting values in each column
