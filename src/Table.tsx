@@ -207,7 +207,7 @@ const MyTable: React.FC = () => {
   const [data, setData] = useState<DataType[]>([]);
 
   useEffect(() => {
-    fetch('/src/db/characteristics_effects.json')
+    fetch('./characteristics_effects.json')
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);

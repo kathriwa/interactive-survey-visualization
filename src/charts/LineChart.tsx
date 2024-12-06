@@ -153,7 +153,7 @@ const LineChart = () => {
 
 
   useEffect(() => {
-    fetch('/src/db/papers.json')
+    fetch('./papers.json')
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);

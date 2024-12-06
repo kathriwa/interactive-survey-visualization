@@ -29,7 +29,7 @@ const StackedBarChart = () => {
   const [data, setData] = useState<BarChartData[]>([]);
 
   useEffect(() => {
-    fetch('/src/db/bar_chart_data.json')
+    fetch('./bar_chart_data.json')
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);
