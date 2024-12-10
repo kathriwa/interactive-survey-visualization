@@ -170,6 +170,36 @@ const generateChartData = (papers: DataType[], selectedOption: string) => {
       };
     });
   }
+  else if (selectedOption === 'userCharacteristic') {
+    const categories = ["Demographic", "Experience", "Personality"];
+    const filtered = categories.filter(effect => effect);
+    const sorted = filtered.sort();
+
+    const subgroups : Record<string, Array<string>> = {
+      "Demographic": ["Age", "Country of Residence", "Gender", "Level of Education"],
+      "Experience": ["Domain Knowledge", "Technical Expertise", "Visualization Literacy"],
+      "Personality": ['Need For Cognition', 'Personal Innovativeness', 'Propensity To Trust Others', 'Conscientiousness', 'Neuroticism', 'Extraversion', 'Openness', 'Agreeableness', 'Social Awareness', 'Rationality', 'Decision-Making Strategy', 'Valence', 'Trust In Technology']
+    }
+
+    const colors = interpolateColors(sorted.length, colorScheme);
+
+    data = sorted.map(category => {
+      const categoryData = years.map((year) => {
+        return papers.filter((item) => item.year <= year && (item.userCharacteristic ? item.userCharacteristic.some(char => subgroups[category].includes(char)) : false)).length
+      });
+
+      const line_color = colors.pop();
+      
+      return {
+        label: category,
+        data: categoryData,
+        fill: false,
+        borderColor: line_color,
+        backgroundColor: line_color,
+        tension: tension,
+      };
+    });
+  }
 
   return {
     labels: years,
@@ -234,11 +264,11 @@ const LineChart = () => {
       onChange={handleOptionChange}
       options={[
         { value: 'effects', label: 'Effects' },
+        { value: 'userCharacteristic', label: 'User Characteristic' },
         { value: 'domain', label: 'Domain' },
         { value: 'modalities', label: 'Modalities' },
         { value: 'explainabilityType', label: 'Explainability Type' },
         { value: 'recommenderType', label: 'Recommender Type' },
-        { value: 'userCharacteristic', label: 'User Characteristic', disabled: true },
       ]}
       />
       <Line data={generateChartData(data, selectedOption)} options={options}/>
