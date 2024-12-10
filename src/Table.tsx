@@ -27,7 +27,6 @@ interface DataType2 {
   recommenderType: Array<string>;
 }
 
-// TODO: Add filters and sorting
 const columns: TableProps<DataType>['columns'] = [
   {
     title: 'User Characteristic',
@@ -153,7 +152,6 @@ const columns: TableProps<DataType>['columns'] = [
     title: 'Measured Effect',
     dataIndex: 'measuredEffect',
     key: 'measuredEffect',
-    // TODO: increase width of filder dropdown
     filters: [
       {
         text: 'Effectiveness',
@@ -499,16 +497,15 @@ const MyTable: React.FC = () => {
   }
 
   return (
-    <>
+    <div style={{ minWidth: '900px' }}>
       <h1>User Characteristics Table</h1>
       <Table<DataType> 
         columns={columns} 
         expandable={{ expandedRowRender }}
         dataSource={data} 
         tableLayout='fixed'
-        pagination={{ defaultPageSize: 50 }}
       />
-    </>
+    </div>
   );
 };
 

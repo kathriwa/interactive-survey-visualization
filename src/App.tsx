@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Route, Routes, Link, useLocation } from 'react-router-dom';
 import './index.css';
 import {
@@ -65,14 +65,32 @@ const App: React.FC = () => {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1200) {
+        setCollapsed(true);
+      } else {
+        setCollapsed(false);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Call handler right away so state gets updated with initial window size
+    handleResize();
+
+    // Remove event listener on cleanup
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
-      <Layout style={{ minHeight: '100vh', width: '100%' }}>
+      <Layout style={{ minHeight: '100vh', minWidth: '100%'}}>
         <Sider collapsible collapsed={collapsed} onCollapse={(value) => setCollapsed(value)} theme="light">
           {/* <div className="demo-logo-vertical" /> */}
           <br></br>
           <Menu defaultSelectedKeys={[currentPageKey]} mode="inline" items={items} />
         </Sider>
-        <Layout style={{ padding: '30px 30px 0 30px', width: '100%' }}>
+        <Layout style={{ padding: '30px 30px 0 30px', width: 'auto'}}>
           <Content>
             <div
               style={{

@@ -451,14 +451,14 @@ const Papers: React.FC = () => {
   }, []);
 
   return (
-    <>
+    <div style={{ minWidth: '1200px' }}>
       <h1>Papers</h1>
       <Table<DataType> 
-        columns={columns} 
-        dataSource={data} 
-        tableLayout='fixed'
+      columns={columns} 
+      dataSource={data} 
+      tableLayout='fixed'
       />
-    </>
+    </div>
   );
 };
 
