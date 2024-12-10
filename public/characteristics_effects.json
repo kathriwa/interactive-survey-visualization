@@ -130,9 +130,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -319,9 +317,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "Post-Hoc",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -362,9 +358,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "Post-Hoc",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -564,9 +558,7 @@
                     "Hybrid"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -710,7 +702,7 @@
     {
         "key": 14,
         "userCharacteristic": "Decision-Making Strategy",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "Yes"
         ],
@@ -1054,7 +1046,7 @@
     {
         "key": 21,
         "userCharacteristic": "Domain Knowledge",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No"
         ],
@@ -1125,9 +1117,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -1270,9 +1260,7 @@
                     "Hybrid"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -1402,7 +1390,7 @@
     {
         "key": 28,
         "userCharacteristic": "Gender",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "Yes"
         ],
@@ -1439,9 +1427,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             },
             {
                 "paperId": 99,
@@ -1575,7 +1561,7 @@
     {
         "key": 31,
         "userCharacteristic": "Level Of Education",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "Yes"
         ],
@@ -2038,7 +2024,7 @@
     {
         "key": 38,
         "userCharacteristic": "Need For Cognition",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No"
         ],
@@ -2148,9 +2134,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -2644,7 +2628,7 @@
     {
         "key": 48,
         "userCharacteristic": "Personal Innovativeness",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No",
             "Yes"
@@ -2933,7 +2917,7 @@
     {
         "key": 54,
         "userCharacteristic": "Propensity To Trust Others",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No",
             "Yes"
@@ -3006,9 +2990,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -3224,9 +3206,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             },
             {
                 "paperId": 139,
@@ -3446,9 +3426,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             },
             {
                 "paperId": 139,
@@ -3882,7 +3860,7 @@
     {
         "key": 69,
         "userCharacteristic": "Technical Expertise",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No"
         ],
@@ -4419,7 +4397,7 @@
     {
         "key": 78,
         "userCharacteristic": "Visualization Literacy",
-        "measuredEffect": "Usability/Ux",
+        "measuredEffect": "Usability/UX",
         "effectFound": [
             "No",
             "Yes"

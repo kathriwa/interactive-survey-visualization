@@ -48,6 +48,8 @@ effectsXuser = effectsXuser.replace('-', np.nan)
 # Replace 'Poi' with 'POI' in 'domain'
 effectsXuser['domain'] = effectsXuser['domain'].replace('Poi', 'POI')
 
+# Replace 'Usability/Ux' with 'Usability/UX' in 'effectFound'
+effectsXuser['measuredEffect'] = effectsXuser['measuredEffect'].replace('Usability/Ux', 'Usability/UX')
 
 # Get all the destinct userCharacteristic and measuredEffectMainCategory
 # pairs and aggregate the rest to a list
@@ -110,7 +112,7 @@ for row in effectsXuserAgg.to_dict(orient='records'):
         explainabilityType = effectsXuser[filter]['explainabilityType'].values[0]
 
         recommenderType = [
-            item for item in recommenderType if str(item) != 'nan']
+            item for item in recommenderType if str(item) != 'nan' and str(item) != 'None']
 
         # Replace NaN with empty string
         explainabilityType = "" if explainabilityType != explainabilityType else explainabilityType
