@@ -112,7 +112,7 @@ for row in effectsXuserAgg.to_dict(orient='records'):
         explainabilityType = effectsXuser[filter]['explainabilityType'].values[0]
 
         recommenderType = [
-            item for item in recommenderType if str(item) != 'nan']
+            item for item in recommenderType if str(item) != 'nan' and str(item) != 'None']
 
         # Replace NaN with empty string
         explainabilityType = "" if explainabilityType != explainabilityType else explainabilityType

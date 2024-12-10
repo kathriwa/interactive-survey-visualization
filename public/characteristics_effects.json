@@ -130,9 +130,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -319,9 +317,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "Post-Hoc",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -362,9 +358,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "Post-Hoc",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -564,9 +558,7 @@
                     "Hybrid"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -1125,9 +1117,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -1270,9 +1260,7 @@
                     "Hybrid"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -1439,9 +1427,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             },
             {
                 "paperId": 99,
@@ -2148,9 +2134,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -3006,9 +2990,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             }
         ]
     },
@@ -3224,9 +3206,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             },
             {
                 "paperId": 139,
@@ -3446,9 +3426,7 @@
                     "Textual"
                 ],
                 "explainabilityType": "",
-                "recommenderType": [
-                    "None"
-                ]
+                "recommenderType": []
             },
             {
                 "paperId": 139,
