@@ -7,13 +7,15 @@ df = pd.read_csv(
 
 effects = ['effectiveness', 'efficiency', 'perceived explanation quality',
            'transparency', 'trust', 'persuasiveness', 'Usability/UX']
-user_characteristics = ['social awareness', 'age', 'agreeableness', 'conscientiousness',
+user_characteristics = ['age', 'agreeableness', 'conscientiousness', 
                         'country of residence', 'decision-making strategy', 
-                        'domain knowledge', 'extraversion', 'gender', 'level of education',
-                        'need for cognition', 'neuroticism', 'openness',
-                        'personal innovativeness', 'propensity to trust others',
-                        'rationality', 'technical expertise', 'trust in technology',
-                        'valence', 'visualization literacy']
+                        'domain knowledge', 'extraversion', 'gender', 
+                        'level of education', 'need for cognition', 
+                        'neuroticism', 'openness', 'personal innovativeness', 
+                        'propensity to trust others', 'rationality', 
+                        'social awareness', 'technical expertise', 
+                        'trust in technology', 'valence', 
+                        'visualization literacy']
 
 colors = ['#03045E',
           '#023E8A',

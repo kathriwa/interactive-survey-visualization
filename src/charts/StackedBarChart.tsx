@@ -36,7 +36,7 @@ const StackedBarChart = () => {
 
   const data2 = {
     // labels: ['social awareness', 'age', 'agreeableness'], // characteristics
-    labels: ['Social Awareness', 'Age', 'Agreeableness', 'Conscientiousness', 'Country Of Residence', 'Decision-Making Strategy', 'Domain Knowledge', 'Extraversion', 'Gender', 'Level Of Education', 'Need For Cognition', 'Neuroticism', 'Openness', 'Personal Innovativeness', 'Propensity To Trust Others', 'Rationality', 'Technical Expertise', 'Trust In Technology', 'Valence', 'Visualization Literacy'],
+    labels: ['Age', 'Agreeableness', 'Conscientiousness', 'Country of Residence', 'Decision-Making Strategy', 'Domain Knowledge', 'Extraversion', 'Gender', 'Level of Education', 'Need for Cognition', 'Neuroticism', 'Openness', 'Personal Innovativeness', 'Propensity to Trust Others', 'Rationality', 'Social Awareness', 'Technical Expertise', 'Trust in Technology', 'Valence', 'Visualization Literacy'],
     // labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'], // characteristics
     datasets: data,
   };
