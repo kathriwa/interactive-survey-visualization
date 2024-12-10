@@ -21,25 +21,54 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Title',
         dataIndex: 'title',
         key: 'title',
-        // width: 200,
+        width: '16%',
         sorter: (a, b) => a.title.localeCompare(b.title),
     },
     {
         title: 'Year',
         dataIndex: 'year',
         key: 'year',
-        // width: '10%',
+        width: '7%',
         sorter: (a, b) => a.year - b.year,
+        filters: [
+          {
+            text: '2022',
+            value: '2022',
+          },
+          {
+            text: '2021',
+            value: '2021',
+          },
+          {
+            text: '2020',
+            value: '2020',
+          },
+          {
+            text: '2019',
+            value: '2019',
+          },
+          {
+            text: '2018',
+            value: '2018',
+          },
+          {
+            text: '2017',
+            value: '2017',
+          },
+        ],
+        onFilter: (value, record) => record.domain ? record.domain.includes(value as string) : false,
     },
     {
         title: 'First Author',
         dataIndex: 'firstAuthor',
         key: 'authors',
+        width: '7%',
     },
     {
         title: 'Venue',
         dataIndex: 'venue',
         key: 'venue',
+        width: '8%',
         filters: [
           {
             text: 'CHI',
@@ -74,6 +103,7 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'User Characteristic',
         dataIndex: 'userCharacteristic',
         key: 'userCharacteristic',
+        width: '12%',
         filters: [
           {
             text: 'Experience',
@@ -195,7 +225,7 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Effects',
         dataIndex: 'effects',
         key: 'effects',
-        // TODO: increase width of filder dropdown
+        width: '11%',
         filters: [
             {
               text: 'Effectiveness',
@@ -246,6 +276,7 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Domain',
         dataIndex: 'domain',
         key: 'domain',
+        width: '9%',
         filters: [
           {
             text: 'App',
@@ -335,6 +366,7 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Modalities',
         dataIndex: 'modalities',
         key: 'modality',
+        width: '9%',
         filters: [
             {
               text: 'Audio',
@@ -369,6 +401,7 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Explainability Type',
         dataIndex: 'explainabilityType',
         key: 'explainabilityType',
+        width: '10%',
         filters: [
             {
               text: 'Model-Intrinsic',
@@ -386,6 +419,7 @@ const columns: TableProps<DataType>['columns'] = [
         title: 'Recommender Type',
         dataIndex: 'recommenderType',
         key: 'recommenderType',
+        width: '11%',
         filters: [
             {
               text: 'Collaborative Filtering',
@@ -421,13 +455,8 @@ const Papers: React.FC = () => {
       <h1>Papers</h1>
       <Table<DataType> 
         columns={columns} 
-        // expandable={{
-        //   expandedRowRender: (record) => <p style={{ margin: 0 }}>{record.title}</p>,
-        //   rowExpandable: (record) => record.title !== 'Not Expandable',
-        // }}
         dataSource={data} 
-        // pagination={{ pageSize: 20 }}
-        // tableLayout='fixed'
+        tableLayout='fixed'
       />
     </>
   );
