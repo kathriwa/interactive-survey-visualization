@@ -2,6 +2,7 @@ import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 import { SetStateAction, useEffect, useState } from 'react';
 import { Select } from 'antd';
+import { interpolateRainbow } from 'd3-scale-chromatic';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
@@ -28,21 +29,40 @@ interface ChartData {
   tension: number;
 }
 
+function interpolateColors(dataLength: number, colorScale: any) {
+  var intervalSize = 1 / dataLength;
+  var colorArray = [];
+
+  for (var i = 0; i < dataLength; i++) {
+    colorArray.push(colorScale((i * intervalSize)));
+  }
+
+  return colorArray;
+}
+
 const generateChartData = (papers: DataType[], selectedOption: string) => {
   const years = [2017, 2018, 2019, 2020, 2021, 2022];
   const tension = 0.3;
   let data:Array<ChartData> = [];
 
+  const colorScheme = interpolateRainbow
+
   if (selectedOption === 'domain') {
     const categories = Array.from(new Set(papers.map((paper: { domain: any; }) => paper.domain)));
     const filtered = categories.filter(domain => domain !== '');
 
-    data = filtered.map(domain => {
+    // Remove domain with only one paper
+    const filtered2 = filtered.filter(domain => !['App', 'Book', 'Driving', 'Job', 'News', 'Programming', 'Video Tag'].includes(domain));
+    const sorted = filtered2.sort();
+
+    const colors = interpolateColors(sorted.length, colorScheme);
+
+    data = sorted.map(domain => {
       const domainData = years.map(year => {
         return papers.filter(paper => paper.domain === domain && paper.year <= year).length;
       });
       
-      const line_color = `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, 1)`;
+      const line_color = colors.pop();
       
       return {
         label: domain,
@@ -57,13 +77,16 @@ const generateChartData = (papers: DataType[], selectedOption: string) => {
   else if (selectedOption === 'effects') {
     const categories = Array.from(new Set(papers.flatMap((item) => item.effects)))
     const filtered = categories.filter(effect => effect);
+    const sorted = filtered.sort();
 
-    data = filtered.map(category => {
+    const colors = interpolateColors(sorted.length, colorScheme);
+
+    data = sorted.map(category => {
       const categoryData = years.map((year) => {
         return papers.filter((item) => item.year <= year && (item.effects ? item.effects.includes(category) : false)).length
       });
 
-      const line_color = `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, 1)`;
+      const line_color = colors.pop();
       
       return {
         label: category,
@@ -78,13 +101,16 @@ const generateChartData = (papers: DataType[], selectedOption: string) => {
   else if (selectedOption === 'modalities') {
     const categories = Array.from(new Set(papers.flatMap((item) => item.modalities)))
     const filtered = categories.filter(effect => effect);
+    const sorted = filtered.sort();
 
-    data = filtered.map(category => {
+    const colors = interpolateColors(sorted.length, colorScheme);
+
+    data = sorted.map(category => {
       const categoryData = years.map((year) => {
         return papers.filter((item) => item.year <= year && (item.modalities ? item.modalities.includes(category) : false)).length
       });
 
-      const line_color = `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, 1)`;
+      const line_color = colors.pop();
       
       return {
         label: category,
@@ -99,13 +125,16 @@ const generateChartData = (papers: DataType[], selectedOption: string) => {
   else if (selectedOption === 'explainabilityType') {
     const categories = Array.from(new Set(papers.flatMap((item) => item.explainabilityType)))
     const filtered = categories.filter(effect => effect);
+    const sorted = filtered.sort();
 
-    data = filtered.map(category => {
+    const colors = interpolateColors(sorted.length, colorScheme);
+
+    data = sorted.map(category => {
       const categoryData = years.map((year) => {
         return papers.filter((item) => item.year <= year && (item.explainabilityType ? item.explainabilityType.includes(category) : false)).length
       });
 
-      const line_color = `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, 1)`;
+      const line_color = colors.pop();
       
       return {
         label: category,
@@ -120,13 +149,16 @@ const generateChartData = (papers: DataType[], selectedOption: string) => {
   else if (selectedOption === 'recommenderType') {
     const categories = Array.from(new Set(papers.flatMap((item) => item.recommenderType)))
     const filtered = categories.filter(effect => effect);
+    const sorted = filtered.sort();
 
-    data = filtered.map(category => {
+    const colors = interpolateColors(sorted.length, colorScheme);
+
+    data = sorted.map(category => {
       const categoryData = years.map((year) => {
         return papers.filter((item) => item.year <= year && (item.recommenderType ? item.recommenderType.includes(category) : false)).length
       });
 
-      const line_color = `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, 1)`;
+      const line_color = colors.pop();
       
       return {
         label: category,
@@ -171,7 +203,7 @@ const LineChart = () => {
       legend: {
         labels: {
           font: {
-            size: 14 // Increase the font size here
+            size: 14
           }
         }
       }
