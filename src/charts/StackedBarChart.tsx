@@ -35,9 +35,7 @@ const StackedBarChart = () => {
   }, []);
 
   const data2 = {
-    // labels: ['social awareness', 'age', 'agreeableness'], // characteristics
     labels: ['Age', 'Agreeableness', 'Conscientiousness', 'Country of Residence', 'Decision-Making Strategy', 'Domain Knowledge', 'Extraversion', 'Gender', 'Level of Education', 'Need for Cognition', 'Neuroticism', 'Openness', 'Personal Innovativeness', 'Propensity to Trust Others', 'Rationality', 'Social Awareness', 'Technical Expertise', 'Trust in Technology', 'Valence', 'Visualization Literacy'],
-    // labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'], // characteristics
     datasets: data,
   };
   console.log(data2);
@@ -69,9 +67,6 @@ const StackedBarChart = () => {
       legend: {
         labels: {
           filter: (legendItem: any) => {
-            // const allowedLabels = ['transparency', 'age', 'agreeableness']; // Specify desired labels
-            // return allowedLabels.includes(legendItem.text);
-            // ensure that the legend only shows labels which do not end in '-neg'
             return !legendItem.text.endsWith('-neg');
           },
           font: {
@@ -95,7 +90,7 @@ const StackedBarChart = () => {
         stacked: true,
         title: {
           display: true,
-          text: '# Papers which found an Effect', // Add your label here
+          text: '# Papers which found an Effect',
           font: {
             size: 14
           }
