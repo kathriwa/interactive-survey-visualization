@@ -9,10 +9,10 @@
         "domain":"Online Dating",
         "recommenderType":"Hybrid",
         "effects":[
-            "Other",
             "Perceived Explanation Quality",
             "Satisfaction",
-            "Trust"
+            "Trust",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -125,11 +125,11 @@
         "recommenderType":null,
         "effects":[
             "Efficiency",
-            "Other",
             "Persuasiveness",
             "Satisfaction",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -462,10 +462,10 @@
         "recommenderType":null,
         "effects":[
             "Effectiveness",
-            "Other",
             "Persuasiveness",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":[
             "Age",
@@ -796,10 +796,10 @@
         "domain":"Music",
         "recommenderType":"Content-Based",
         "effects":[
-            "Other",
             "Perceived Explanation Quality",
             "Transparency",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1008,10 +1008,10 @@
         "domain":"Education",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Transparency",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1100,12 +1100,12 @@
         "recommenderType":null,
         "effects":[
             "Effectiveness",
-            "Other",
             "Persuasiveness",
             "Satisfaction",
             "Transparency",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1563,11 +1563,11 @@
         "effects":[
             "Effectiveness",
             "Explanation Preference",
-            "Other",
             "Perceived Explanation Quality",
             "Persuasiveness",
             "Transparency",
-            "Trust"
+            "Trust",
+            "Other"
         ],
         "userCharacteristic":[
             "Decision-Making Strategy",
@@ -1679,8 +1679,8 @@
         "domain":"Music",
         "recommenderType":null,
         "effects":[
-            "Other",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1802,10 +1802,10 @@
         "recommenderType":null,
         "effects":[
             "Effectiveness",
-            "Other",
             "Persuasiveness",
             "Satisfaction",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1828,8 +1828,8 @@
         "recommenderType":null,
         "effects":[
             "Efficiency",
-            "Other",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1849,10 +1849,10 @@
         "domain":"Art",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Satisfaction",
             "Transparency",
-            "Trust"
+            "Trust",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1914,10 +1914,10 @@
         "domain":"Music",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Perceived Explanation Quality",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":[
             "Need For Cognition"
@@ -2004,9 +2004,9 @@
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Perceived Explanation Quality",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":[
             "Valence"
@@ -2218,9 +2218,9 @@
         "recommenderType":null,
         "effects":[
             "Effectiveness",
-            "Other",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2241,8 +2241,8 @@
         "recommenderType":null,
         "effects":[
             "Efficiency",
-            "Other",
-            "Satisfaction"
+            "Satisfaction",
+            "Other"
         ],
         "userCharacteristic":[
             "Gender"
@@ -2310,10 +2310,10 @@
         "recommenderType":"Collaborative Filtering",
         "effects":[
             "Effectiveness",
-            "Other",
             "Perceived Explanation Quality",
             "Transparency",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2380,8 +2380,8 @@
         "domain":"Health",
         "recommenderType":null,
         "effects":[
-            "Other",
-            "Persuasiveness"
+            "Persuasiveness",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2471,9 +2471,9 @@
         "domain":"Multiple",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Persuasiveness",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2578,9 +2578,9 @@
         "domain":"POI",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2663,8 +2663,8 @@
         "domain":"E-Commerce",
         "recommenderType":null,
         "effects":[
-            "Other",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2746,10 +2746,10 @@
         "domain":"Music",
         "recommenderType":"Content-Based",
         "effects":[
-            "Other",
             "Transparency",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
