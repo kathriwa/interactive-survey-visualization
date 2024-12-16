@@ -60,10 +60,10 @@ const StackedBarChart = () => {
 
   const options = {
     plugins: {
-      title: {
-        display: true,
-        text: 'Characteristics-Effects Chart',
-      },
+      // title: {
+      //   display: true,
+      //   text: 'Characteristics-Effects Chart',
+      // },
       legend: {
         labels: {
           filter: (legendItem: any) => {
@@ -105,7 +105,7 @@ const StackedBarChart = () => {
   };
 
   return (
-    <div style={{ width: '100%' }}>
+    <div style={{ width: '100%', marginTop: 20 }}>
       <Bar data={data2} options={options} />
     </div>
   )
