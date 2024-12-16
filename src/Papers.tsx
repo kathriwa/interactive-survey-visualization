@@ -22,7 +22,7 @@ const columns: TableProps<DataType>['columns'] = [
         dataIndex: 'title',
         key: 'title',
         width: '16%',
-        sorter: (a, b) => a.title.localeCompare(b.title),
+        sorter: (a, b) => a.title < b.title ? -1 : 1,
     },
     {
         title: 'Year',
@@ -33,42 +33,44 @@ const columns: TableProps<DataType>['columns'] = [
         filters: [
           {
             text: '2022',
-            value: '2022',
+            value: 2022,
           },
           {
             text: '2021',
-            value: '2021',
+            value: 2021,
           },
           {
             text: '2020',
-            value: '2020',
+            value: 2020,
           },
           {
             text: '2019',
-            value: '2019',
+            value: 2019,
           },
           {
             text: '2018',
-            value: '2018',
+            value: 2018,
           },
           {
             text: '2017',
-            value: '2017',
+            value: 2017,
           },
         ],
-        onFilter: (value, record) => record.domain ? record.domain.includes(value as string) : false,
+        onFilter: (value, record) => record.year ? record.year == value : false,
     },
     {
         title: 'First Author',
         dataIndex: 'firstAuthor',
         key: 'authors',
         width: '7%',
+        sorter: (a, b) => a.firstAuthor < b.firstAuthor ? -1 : 1,
     },
     {
         title: 'Venue',
         dataIndex: 'venue',
         key: 'venue',
         width: '8%',
+        sorter: (a, b) => a.venue.localeCompare(b.venue),
         filters: [
           {
             text: 'CHI',
@@ -277,6 +279,7 @@ const columns: TableProps<DataType>['columns'] = [
         dataIndex: 'domain',
         key: 'domain',
         width: '9%',
+        sorter: (a, b) => a.domain < b.domain ? -1 : 1,
         filters: [
           {
             text: 'App',
@@ -423,7 +426,8 @@ const columns: TableProps<DataType>['columns'] = [
             return record.explainabilityType ? ['Model-Intrinsic', 'Post-Hoc'].every(v => !record.explainabilityType.includes(v)) : true
           }
           return record.explainabilityType ? record.explainabilityType.includes(value as string) : false
-        }
+        },
+        render: (explainabilityType: Array<string>) => explainabilityType ? explainabilityType.join(', ') : '',
     },
     {
         title: 'Recommender Type',
