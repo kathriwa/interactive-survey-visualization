@@ -5,7 +5,7 @@
         "firstAuthor":"Kleinerman, Akiva",
         "title":"Supporting users in finding successful matches in reciprocal recommender systems",
         "year":2021,
-        "venue":"User Modeling and User-Adapted Interaction",
+        "venue":"UMUAI",
         "domain":"Online Dating",
         "recommenderType":"Hybrid",
         "effects":[
@@ -28,7 +28,7 @@
         "firstAuthor":"Zimmermann, Robert",
         "title":"Enhancing brick-and-mortar store shopping experience with an augmented reality shopping assistant application using personalized recommendations and explainable artificial intelligence",
         "year":2022,
-        "venue":"Journal of Research in Interactive Marketing",
+        "venue":"JRIM",
         "domain":"E-Commerce",
         "recommenderType":null,
         "effects":[
@@ -51,7 +51,7 @@
         "firstAuthor":"Yang, Aobo",
         "title":"Comparative explanations of recommendations",
         "year":2022,
-        "venue":"The Web Conference",
+        "venue":"The Web Conf",
         "domain":"POI",
         "recommenderType":null,
         "effects":[
@@ -120,7 +120,7 @@
         "firstAuthor":"Quijano-Sanchez, Lara",
         "title":"Make it personal: A social explanation system applied to group recommendations",
         "year":2017,
-        "venue":"Expert Systems with Applications",
+        "venue":"ESWA",
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
@@ -209,7 +209,7 @@
         "firstAuthor":"Millecamp, Martijn",
         "title":"\u201cKnowing me, knowing you\u201d: personalized explanations for a music recommender system",
         "year":2022,
-        "venue":"User Modeling and User-Adapted Interaction",
+        "venue":"UMUAI",
         "domain":"Music",
         "recommenderType":null,
         "effects":[
@@ -301,7 +301,7 @@
         "firstAuthor":"Rana, Arpit ",
         "title":"Extended recommendation-by-explanation",
         "year":2022,
-        "venue":"User Modeling and User-Adapted Interaction",
+        "venue":"UMUAI",
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
@@ -708,7 +708,7 @@
         "firstAuthor":"Ghazimatin, Azin",
         "title":"ELIXIR: Learning from User Feedback on Explanations to Improve Recommender Models",
         "year":2021,
-        "venue":"The Web Conference",
+        "venue":"The Web Conf",
         "domain":"Multiple",
         "recommenderType":null,
         "effects":[
@@ -895,7 +895,7 @@
         "firstAuthor":"Tsai, Chun-Hua",
         "title":"The effects of controllability and explainability in a social recommender system",
         "year":2021,
-        "venue":"User Modeling and User-Adapted Interaction",
+        "venue":"UMUAI",
         "domain":"Social",
         "recommenderType":"Hybrid",
         "effects":[
@@ -918,7 +918,7 @@
         "firstAuthor":"Zheng, Yong",
         "title":"The role of transparency in multi-stakeholder educational recommendations",
         "year":2021,
-        "venue":"User Modeling and User-Adapted Interaction",
+        "venue":"UMUAI",
         "domain":"Education",
         "recommenderType":null,
         "effects":null,
@@ -1302,7 +1302,7 @@
         "firstAuthor":"Wilkinson, Daricia",
         "title":"Why or Why Not? The Effect of Justification Styles on Chatbot Recommendations",
         "year":2021,
-        "venue":"ACM Transactions on Information Systems",
+        "venue":"TOIS",
         "domain":"Movie",
         "recommenderType":"Content-Based",
         "effects":[
@@ -1489,7 +1489,7 @@
         "firstAuthor":"Naiseh, Mohammad",
         "title":"Nudging through Friction: An Approach for Calibrating Trust in Explainable AI",
         "year":2021,
-        "venue":"2021 8th International Conference on Behavioral and Social Computing (BESC)",
+        "venue":"BESC",
         "domain":"Health",
         "recommenderType":null,
         "effects":[
@@ -1823,7 +1823,7 @@
         "firstAuthor":"Xu, Xuhai",
         "title":"Understanding User Behavior For Document Recommendation",
         "year":2020,
-        "venue":"The Web Conference",
+        "venue":"The Web Conf",
         "domain":"Document",
         "recommenderType":null,
         "effects":[

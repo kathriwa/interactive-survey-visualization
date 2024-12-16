@@ -26,7 +26,7 @@
                 "paperId": 128,
                 "title": "Why or Why Not? The Effect of Justification Styles on Chatbot Recommendations",
                 "firstAuthor": "Wilkinson, Daricia",
-                "venue": "ACM Transactions on Information Systems",
+                "venue": "TOIS",
                 "url": "https://dl.acm.org/doi/10.1145/3441715",
                 "effectFound": [
                     "Yes"
@@ -1214,7 +1214,7 @@
                 "paperId": 128,
                 "title": "Why or Why Not? The Effect of Justification Styles on Chatbot Recommendations",
                 "firstAuthor": "Wilkinson, Daricia",
-                "venue": "ACM Transactions on Information Systems",
+                "venue": "TOIS",
                 "url": "https://dl.acm.org/doi/10.1145/3441715",
                 "effectFound": [
                     "No"
@@ -1498,7 +1498,7 @@
                 "paperId": 111,
                 "title": "The role of transparency in multi-stakeholder educational recommendations",
                 "firstAuthor": "Zheng, Yong",
-                "venue": "User Modeling and User-Adapted Interaction",
+                "venue": "UMUAI",
                 "url": "https://link.springer.com/article/10.1007/s11257-021-09291-x",
                 "effectFound": [
                     "No",
@@ -1761,7 +1761,7 @@
                 "paperId": 33,
                 "title": "\u201cKnowing me, knowing you\u201d: personalized explanations for a music recommender system",
                 "firstAuthor": "Millecamp, Martijn",
-                "venue": "User Modeling and User-Adapted Interaction",
+                "venue": "UMUAI",
                 "url": "https://link.springer.com/article/10.1007/s11257-021-09304-9",
                 "effectFound": [
                     "Yes"
