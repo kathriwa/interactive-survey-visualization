@@ -94,7 +94,7 @@ const columns: TableProps<DataType>['columns'] = [
       filterSearch: true,
       onFilter: (value, record) => {
         if (value === 'Other') {
-          return record.venue ? ['CHI', 'IUI', 'RecSys', 'UMAP'].every(v => !record.venue.includes(v)) : false
+          return record.venue ? ['CHI', 'IUI', 'RecSys', 'UMAP'].every(v => !record.venue.includes(v)) : true
         }
         return record.venue ? record.venue.includes(value as string) : false
       }
@@ -411,9 +411,19 @@ const columns: TableProps<DataType>['columns'] = [
               text: 'Post-Hoc',
               value: 'Post-Hoc',
             },
+            {
+              text: 'Unknown',
+              value: 'Unknown',
+            }
           ],
         filterSearch: true,
-        onFilter: (value, record) => record.explainabilityType ? record.explainabilityType.includes(value as string) : false,
+        // onFilter: (value, record) => record.explainabilityType ? record.explainabilityType.includes(value as string) : false,
+        onFilter: (value, record) => {
+          if (value === 'Unknown') {
+            return record.explainabilityType ? ['Model-Intrinsic', 'Post-Hoc'].every(v => !record.explainabilityType.includes(v)) : true
+          }
+          return record.explainabilityType ? record.explainabilityType.includes(value as string) : false
+        }
     },
     {
         title: 'Recommender Type',
@@ -433,9 +443,18 @@ const columns: TableProps<DataType>['columns'] = [
               text: 'Hybrid',
               value: 'Hybrid',
             },
+            {
+              text: 'Unknown',
+              value: 'Unknown',
+            }
           ],
         filterSearch: true,
-        onFilter: (value, record) => record.recommenderType ? record.recommenderType.includes(value as string) : false,
+        onFilter: (value, record) => {
+          if (value === 'Unknown') {
+            return record.recommenderType ? ['Collaborative Filtering', 'Content-Based', 'Hybrid'].every(v => !record.recommenderType.includes(v)) : true
+          }
+          return record.recommenderType ? record.recommenderType.includes(value as string) : false
+        }
 
     },
 ];
