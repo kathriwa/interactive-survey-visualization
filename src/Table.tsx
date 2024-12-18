@@ -134,6 +134,7 @@ const columns: TableProps<DataType>['columns'] = [
     ],
     filterMode: 'tree',
     filterSearch: true,
+    sorter: (a, b) => a.userCharacteristic <= b.userCharacteristic ? -1 : 1,
     onFilter: (value, record) => {
         if (value === 'Personality') {
           // check if userCharacteristic is included in the array
@@ -195,6 +196,7 @@ const columns: TableProps<DataType>['columns'] = [
       // }
     ],
     filterSearch: true,
+    sorter: (a, b) => a.measuredEffect <= b.measuredEffect ? -1 : 1,
     onFilter: (value, record) => record.measuredEffect ? record.measuredEffect.includes(value as string) : false,
   },
   {

@@ -226,10 +226,10 @@ const LineChart = () => {
 
   const options = {
     plugins: {
-      title: {
-        display: true,
-        text: 'Cummulative Chart',
-      },
+      // title: {
+      //   display: true,
+      //   text: 'Cummulative Chart',
+      // },
       legend: {
         labels: {
           font: {
@@ -260,7 +260,7 @@ const LineChart = () => {
     <div>
       <Select
       defaultValue="effects"
-      style={{ width: 200 }}
+      style={{ width: 200, marginBottom: 20 }}
       onChange={handleOptionChange}
       options={[
         { value: 'effects', label: 'Effects' },

@@ -5,14 +5,14 @@
         "firstAuthor":"Kleinerman, Akiva",
         "title":"Supporting users in finding successful matches in reciprocal recommender systems",
         "year":2021,
-        "venue":"User Modeling and User-Adapted Interaction",
+        "venue":"UMUAI",
         "domain":"Online Dating",
         "recommenderType":"Hybrid",
         "effects":[
-            "Other",
             "Perceived Explanation Quality",
             "Satisfaction",
-            "Trust"
+            "Trust",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -28,7 +28,7 @@
         "firstAuthor":"Zimmermann, Robert",
         "title":"Enhancing brick-and-mortar store shopping experience with an augmented reality shopping assistant application using personalized recommendations and explainable artificial intelligence",
         "year":2022,
-        "venue":"Journal of Research in Interactive Marketing",
+        "venue":"JRIM",
         "domain":"E-Commerce",
         "recommenderType":null,
         "effects":[
@@ -51,7 +51,7 @@
         "firstAuthor":"Yang, Aobo",
         "title":"Comparative explanations of recommendations",
         "year":2022,
-        "venue":"The Web Conference",
+        "venue":"The Web Conf",
         "domain":"POI",
         "recommenderType":null,
         "effects":[
@@ -120,16 +120,16 @@
         "firstAuthor":"Quijano-Sanchez, Lara",
         "title":"Make it personal: A social explanation system applied to group recommendations",
         "year":2017,
-        "venue":"Expert Systems with Applications",
+        "venue":"ESWA",
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
             "Efficiency",
-            "Other",
             "Persuasiveness",
             "Satisfaction",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -146,7 +146,7 @@
         "firstAuthor":"Yang, Zekun",
         "title":"Interpretable video tag recommendation with multimedia deep learning framework",
         "year":2022,
-        "venue":"Internet Research",
+        "venue":"Internet Res.",
         "domain":"Video Tag",
         "recommenderType":null,
         "effects":[
@@ -209,7 +209,7 @@
         "firstAuthor":"Millecamp, Martijn",
         "title":"\u201cKnowing me, knowing you\u201d: personalized explanations for a music recommender system",
         "year":2022,
-        "venue":"User Modeling and User-Adapted Interaction",
+        "venue":"UMUAI",
         "domain":"Music",
         "recommenderType":null,
         "effects":[
@@ -232,7 +232,7 @@
         "firstAuthor":"Pecune, Florian",
         "title":"Designing Persuasive Food Conversational Recommender Systems With Nudging and Socially-Aware Conversational Strategies",
         "year":2022,
-        "venue":"Frontiers in Robotics and AI",
+        "venue":"Front. Robot. AI",
         "domain":"Health",
         "recommenderType":"Hybrid",
         "effects":[
@@ -301,7 +301,7 @@
         "firstAuthor":"Rana, Arpit ",
         "title":"Extended recommendation-by-explanation",
         "year":2022,
-        "venue":"User Modeling and User-Adapted Interaction",
+        "venue":"UMUAI",
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
@@ -412,7 +412,7 @@
         "firstAuthor":"Zhang, Zhirun",
         "title":"Effects of Feature-Based Explanation and Its Output Modality on User Satisfaction With Service Recommender Systems",
         "year":2022,
-        "venue":"Frontiers in Big Data",
+        "venue":"Front. Big Data",
         "domain":"POI",
         "recommenderType":null,
         "effects":[
@@ -457,15 +457,15 @@
         "firstAuthor":"Nelekar, Shreeya ",
         "title":"Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
         "year":2022,
-        "venue":"British Journal of Educational Technology",
+        "venue":"BJET",
         "domain":"Health",
         "recommenderType":null,
         "effects":[
             "Effectiveness",
-            "Other",
             "Persuasiveness",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":[
             "Age",
@@ -488,7 +488,7 @@
         "firstAuthor":"Abdulrahman, Amal",
         "title":"Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
         "year":2022,
-        "venue":"Behaviour & Information Technology",
+        "venue":"Behav. Inf. Technol.",
         "domain":"Health",
         "recommenderType":null,
         "effects":[
@@ -571,7 +571,7 @@
         "firstAuthor":"Tal, Avital Shulner",
         "title":"Fairness, explainability and in-between: understanding the impact of different explanation methods on non-expert users\u2019 perceptions of fairness toward an algorithmic system",
         "year":2022,
-        "venue":"Ethics and Information Technology",
+        "venue":"Ethics Inf. Technol.",
         "domain":"Job",
         "recommenderType":null,
         "effects":[
@@ -637,7 +637,7 @@
         "firstAuthor":"Choi, Jaewon",
         "title":"Examining the effects of personalized app recommender systems on purchase intention: a self and social-interaction perspective",
         "year":2017,
-        "venue":"Journal of Electronic Commerce Research",
+        "venue":"JECR",
         "domain":"App",
         "recommenderType":"Collaborative Filtering",
         "effects":[
@@ -659,7 +659,7 @@
         "firstAuthor":"Ma, Boxuan",
         "title":"CourseQ: the impact of visual and interactive course recommendation in university environments",
         "year":2021,
-        "venue":"Research and Practice in Technology Enhanced Learning volume",
+        "venue":"TELRP",
         "domain":"Education",
         "recommenderType":"Collaborative Filtering",
         "effects":[
@@ -708,7 +708,7 @@
         "firstAuthor":"Ghazimatin, Azin",
         "title":"ELIXIR: Learning from User Feedback on Explanations to Improve Recommender Models",
         "year":2021,
-        "venue":"The Web Conference",
+        "venue":"The Web Conf",
         "domain":"Multiple",
         "recommenderType":null,
         "effects":[
@@ -768,7 +768,7 @@
         "firstAuthor":"Jacobs, Maia",
         "title":"How machine-learning recommendations influence clinician treatment selections: the example of antidepressant selection",
         "year":2021,
-        "venue":"Translational Psychiatry",
+        "venue":"Transl. Psychiatry",
         "domain":"Health",
         "recommenderType":null,
         "effects":[
@@ -796,10 +796,10 @@
         "domain":"Music",
         "recommenderType":"Content-Based",
         "effects":[
-            "Other",
             "Perceived Explanation Quality",
             "Transparency",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -815,7 +815,7 @@
         "firstAuthor":"Starke, Alain",
         "title":"Promoting Energy-Efficient Behavior by Depicting Social Norms in a Recommender Interface",
         "year":2021,
-        "venue":"ACM Transactions on Interactive Intelligent Systems",
+        "venue":"TiiS",
         "domain":"Energy Saving",
         "recommenderType":null,
         "effects":[
@@ -875,7 +875,7 @@
         "firstAuthor":"Damak, Khalil",
         "title":"Sequence-Based Explainable Hybrid Song Recommendation",
         "year":2021,
-        "venue":"Frontiers in Big Data",
+        "venue":"Front. Big Data",
         "domain":"Music",
         "recommenderType":null,
         "effects":[
@@ -895,7 +895,7 @@
         "firstAuthor":"Tsai, Chun-Hua",
         "title":"The effects of controllability and explainability in a social recommender system",
         "year":2021,
-        "venue":"User Modeling and User-Adapted Interaction",
+        "venue":"UMUAI",
         "domain":"Social",
         "recommenderType":"Hybrid",
         "effects":[
@@ -918,7 +918,7 @@
         "firstAuthor":"Zheng, Yong",
         "title":"The role of transparency in multi-stakeholder educational recommendations",
         "year":2021,
-        "venue":"User Modeling and User-Adapted Interaction",
+        "venue":"UMUAI",
         "domain":"Education",
         "recommenderType":null,
         "effects":null,
@@ -938,7 +938,7 @@
         "firstAuthor":"Bu\u00e7inca, Zana",
         "title":"To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making",
         "year":2021,
-        "venue":"Proceedings of the ACM on Human-Computer Interaction",
+        "venue":"PACMHCI",
         "domain":"Health",
         "recommenderType":null,
         "effects":[
@@ -1008,10 +1008,10 @@
         "domain":"Education",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Transparency",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1027,7 +1027,7 @@
         "firstAuthor":"Musto, Cataldo",
         "title":"Linked open data-based explanations for transparent recommender systems",
         "year":2019,
-        "venue":"INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES",
+        "venue":"IJHC",
         "domain":"Multiple",
         "recommenderType":null,
         "effects":[
@@ -1100,12 +1100,12 @@
         "recommenderType":null,
         "effects":[
             "Effectiveness",
-            "Other",
             "Persuasiveness",
             "Satisfaction",
             "Transparency",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1142,7 +1142,7 @@
         "firstAuthor":"Hong, Minsung",
         "title":"Improving Explainability of Recommendation System by Multi-sided Tensor Factorization",
         "year":2019,
-        "venue":"CYBERNETICS AND SYSTEMS",
+        "venue":"Cybern. Syst.",
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
@@ -1258,7 +1258,7 @@
         "firstAuthor":"Afridi, Ahmad Hassan",
         "title":"Triggers and connection-making for serendipity via user interface in recommender systems",
         "year":2021,
-        "venue":"Personal and Ubiquitous Computing",
+        "venue":"Pers Ubiquit Comput",
         "domain":"Education",
         "recommenderType":null,
         "effects":[
@@ -1279,7 +1279,7 @@
         "firstAuthor":"Liao, Mengqi",
         "title":"When E-Commerce Personalization Systems Show and Tell: Investigating the Relative Persuasive Appeal of Content-Based versus Collaborative Filtering",
         "year":2021,
-        "venue":"Journal of Advertising",
+        "venue":"J. Advert.",
         "domain":"E-Commerce",
         "recommenderType":"Content-Based, Collaborative Filtering",
         "effects":[
@@ -1302,7 +1302,7 @@
         "firstAuthor":"Wilkinson, Daricia",
         "title":"Why or Why Not? The Effect of Justification Styles on Chatbot Recommendations",
         "year":2021,
-        "venue":"ACM Transactions on Information Systems",
+        "venue":"TOIS",
         "domain":"Movie",
         "recommenderType":"Content-Based",
         "effects":[
@@ -1489,7 +1489,7 @@
         "firstAuthor":"Naiseh, Mohammad",
         "title":"Nudging through Friction: An Approach for Calibrating Trust in Explainable AI",
         "year":2021,
-        "venue":"2021 8th International Conference on Behavioral and Social Computing (BESC)",
+        "venue":"BESC",
         "domain":"Health",
         "recommenderType":null,
         "effects":[
@@ -1563,11 +1563,11 @@
         "effects":[
             "Effectiveness",
             "Explanation Preference",
-            "Other",
             "Perceived Explanation Quality",
             "Persuasiveness",
             "Transparency",
-            "Trust"
+            "Trust",
+            "Other"
         ],
         "userCharacteristic":[
             "Decision-Making Strategy",
@@ -1631,7 +1631,7 @@
         "firstAuthor":"Coba, Ludovik",
         "title":"Personalised novel and explainable matrix factorisation",
         "year":2019,
-        "venue":"DATA & KNOWLEDGE ENGINEERING",
+        "venue":"Data Knowl. Eng.",
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
@@ -1679,8 +1679,8 @@
         "domain":"Music",
         "recommenderType":null,
         "effects":[
-            "Other",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1802,10 +1802,10 @@
         "recommenderType":null,
         "effects":[
             "Effectiveness",
-            "Other",
             "Persuasiveness",
             "Satisfaction",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1823,13 +1823,13 @@
         "firstAuthor":"Xu, Xuhai",
         "title":"Understanding User Behavior For Document Recommendation",
         "year":2020,
-        "venue":"The Web Conference",
+        "venue":"The Web Conf",
         "domain":"Document",
         "recommenderType":null,
         "effects":[
             "Efficiency",
-            "Other",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1845,14 +1845,14 @@
         "firstAuthor":"Dominguez, Vicente",
         "title":"Algorithmic and HCI Aspects for Explaining Recommendations of Artistic Images",
         "year":2020,
-        "venue":"ACM Transactions on Interactive Intelligent Systems",
+        "venue":"TiiS",
         "domain":"Art",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Satisfaction",
             "Transparency",
-            "Trust"
+            "Trust",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -1870,7 +1870,7 @@
         "firstAuthor":"Baizal, Z.K.A.",
         "title":"Computational model for generating interactions in conversational recommender system based on product functional requirements",
         "year":2020,
-        "venue":"Data & Knowledge Engineering",
+        "venue":"Data Knowl. Eng.",
         "domain":"E-Commerce",
         "recommenderType":null,
         "effects":[
@@ -1914,10 +1914,10 @@
         "domain":"Music",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Perceived Explanation Quality",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":[
             "Need For Cognition"
@@ -1935,7 +1935,7 @@
         "firstAuthor":"da Silva, Rodrigo Fernandes Gomes",
         "title":"CROKAGE: effective solution recommendation for programming tasks by leveraging crowd knowledge",
         "year":2020,
-        "venue":"Empirical Software Engineering",
+        "venue":"Empir. Softw. Eng.",
         "domain":"Programming",
         "recommenderType":"Collaborative Filtering",
         "effects":[
@@ -1971,7 +1971,7 @@
         "firstAuthor":"Kouki, Pigi",
         "title":"Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
         "year":2020,
-        "venue":"ACM Transactions on Interactive Intelligent Systems",
+        "venue":"TiiS",
         "domain":"Music",
         "recommenderType":"Hybrid",
         "effects":[
@@ -2004,9 +2004,9 @@
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Perceived Explanation Quality",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":[
             "Valence"
@@ -2083,7 +2083,7 @@
         "firstAuthor":"Karga, Soultana",
         "title":"Using explanations for recommender systems in learning design settings to enhance teachers' acceptance and perceived experience",
         "year":2019,
-        "venue":"EDUCATION AND INFORMATION TECHNOLOGIES",
+        "venue":"Educ Inf Technol",
         "domain":"Education",
         "recommenderType":"Hybrid",
         "effects":[
@@ -2128,7 +2128,7 @@
         "firstAuthor":"Hera, Stella",
         "title":"Recommending Learning Objects with Arguments and Explanations ",
         "year":2020,
-        "venue":"applied sciences",
+        "venue":"Applied Sciences",
         "domain":"Education",
         "recommenderType":"Hybrid",
         "effects":[
@@ -2148,7 +2148,7 @@
         "firstAuthor":"Coba, L.",
         "title":"Exploring Users' Perception of Collaborative Explanation Styles",
         "year":2018,
-        "venue":"Conference on Business Informatics",
+        "venue":"CBI",
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
@@ -2168,7 +2168,7 @@
         "firstAuthor":"Afridi, Ahmad Hassan",
         "title":"Visualizing Serendipitous Recommendations in User Controlled Recommender System for Learning",
         "year":2018,
-        "venue":"International Symposium on Emerging Information, Communication and Networks",
+        "venue":"Procedia Comput. Sci.",
         "domain":"Education",
         "recommenderType":null,
         "effects":[
@@ -2213,14 +2213,14 @@
         "firstAuthor":"Bigras, Emile",
         "title":"Recommendation Agent Adoption: How Recommendation Presentation Influences Employees' Perceptions, Behaviors, and Decision Quality",
         "year":2019,
-        "venue":"APPLIED SCIENCES-BASEL",
+        "venue":"Applied Sciences",
         "domain":"E-Commerce",
         "recommenderType":null,
         "effects":[
             "Effectiveness",
-            "Other",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2236,13 +2236,13 @@
         "firstAuthor":"Tran, Thi Ngoc Trang",
         "title":"Social Choice-based Explanations: An Approach to Enhancing Fairness and Consensus Aspects",
         "year":2020,
-        "venue":"Journal of Universal Computer Science",
+        "venue":"JUCS",
         "domain":"POI",
         "recommenderType":null,
         "effects":[
             "Efficiency",
-            "Other",
-            "Satisfaction"
+            "Satisfaction",
+            "Other"
         ],
         "userCharacteristic":[
             "Gender"
@@ -2260,7 +2260,7 @@
         "firstAuthor":"Gunaratne, J.",
         "title":"The Persuasive Power of Algorithmic and Crowdsourced Advice",
         "year":2018,
-        "venue":"JOURNAL OF MANAGEMENT INFORMATION SYSTEMS",
+        "venue":"J. Manag. Inf. Syst.",
         "domain":"Banking",
         "recommenderType":null,
         "effects":[
@@ -2310,10 +2310,10 @@
         "recommenderType":"Collaborative Filtering",
         "effects":[
             "Effectiveness",
-            "Other",
             "Perceived Explanation Quality",
             "Transparency",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2376,12 +2376,12 @@
         "firstAuthor":"Abdulrahman, Amal",
         "title":"Belief-based Agent Explanations to Encourage Behaviour Change",
         "year":2019,
-        "venue":"Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents",
+        "venue":"IVA",
         "domain":"Health",
         "recommenderType":null,
         "effects":[
-            "Other",
-            "Persuasiveness"
+            "Persuasiveness",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2397,7 +2397,7 @@
         "firstAuthor":"Zhang, Jingjing",
         "title":"Exploring Explanation Effects on Consumers\u2019 Trust in Online Recommender Agents",
         "year":2018,
-        "venue":"International Journal of Human\u2013Computer Interaction",
+        "venue":"Int. J. Hum.-Comput. Interact.",
         "domain":"E-Commerce",
         "recommenderType":"Content-Based",
         "effects":[
@@ -2443,7 +2443,7 @@
         "firstAuthor":"Loepp, B.",
         "title":"Interactive recommending with Tag-Enhanced Matrix Factorization (TagMF)",
         "year":2019,
-        "venue":"INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES",
+        "venue":"IJHC",
         "domain":"Movie",
         "recommenderType":"Collaborative Filtering",
         "effects":[
@@ -2467,13 +2467,13 @@
         "firstAuthor":"Gai, Phyliss Jia",
         "title":"Making Recommendations More Effective Through Framings: Impacts of User- Versus Item-Based Framings on Recommendation Click-Throughs",
         "year":2019,
-        "venue":"Journal of Marketing",
+        "venue":"J. Mark.",
         "domain":"Multiple",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Persuasiveness",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2510,7 +2510,7 @@
         "firstAuthor":"Noorbehbahani, F.",
         "title":"The Impact of Demographic Factors on Persuasion Strategies in Personalized Recommender System",
         "year":2018,
-        "venue":"2018 8th International Conference on Computer and Knowledge Engineering (ICCKE)",
+        "venue":"ICCKE",
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
@@ -2550,7 +2550,7 @@
         "firstAuthor":"Bellini, Vito",
         "title":"Knowledge-aware Autoencoders for Explainable Recommender Systems",
         "year":2018,
-        "venue":"DLRS 2018: 3rd Workshop on Deep Learning for Recommender Systems",
+        "venue":"DLRS",
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
@@ -2578,9 +2578,9 @@
         "domain":"POI",
         "recommenderType":null,
         "effects":[
-            "Other",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2659,12 +2659,12 @@
         "firstAuthor":"Chen, Li",
         "title":"User Evaluations on Sentiment-based Recommendation Explanations",
         "year":2019,
-        "venue":"ACM TRANSACTIONS ON INTERACTIVE INTELLIGENT SYSTEMS",
+        "venue":"TiiS",
         "domain":"E-Commerce",
         "recommenderType":null,
         "effects":[
-            "Other",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2702,7 +2702,7 @@
         "firstAuthor":"Tintarev, Nava",
         "title":"Knowing the unknown: visualising consumption blind-spots in recommender systems.",
         "year":2018,
-        "venue":"Annual ACM Symposium on Applied Computing",
+        "venue":"SAC",
         "domain":"Movie",
         "recommenderType":null,
         "effects":[
@@ -2742,14 +2742,14 @@
         "firstAuthor":"Andjelkovic, I.",
         "title":"Moodplay: Interactive music recommendation based on Artists' mood similarity",
         "year":2019,
-        "venue":"INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES",
+        "venue":"IJHC",
         "domain":"Music",
         "recommenderType":"Content-Based",
         "effects":[
-            "Other",
             "Transparency",
             "Trust",
-            "Usability\/UX"
+            "Usability\/UX",
+            "Other"
         ],
         "userCharacteristic":null,
         "modalities":[
@@ -2766,7 +2766,7 @@
         "firstAuthor":"Afridi, Ahmad Hassan",
         "title":"Transparency for Beyond-Accuracy Experiences A Novel User Interface for Recommender Systems",
         "year":2019,
-        "venue":"10TH INTERNATIONAL CONFERENCE ON AMBIENT SYSTEMS, NETWORKS AND TECHNOLOGIES (ANT 2019) \/ THE 2ND INTERNATIONAL CONFERENCE ON EMERGING DATA AND INDUSTRY 4.0 (EDI40 2019) \/ AFFILIATED WORKSHOPS",
+        "venue":"ANT\/EDI40",
         "domain":"Education",
         "recommenderType":null,
         "effects":[
@@ -2788,7 +2788,7 @@
         "firstAuthor":"Thill, Serge",
         "title":"Driver adherence to recommendations from support systems improves if the systems explain why they are given: A simulator study",
         "year":2018,
-        "venue":"TRANSPORTATION RESEARCH PART F-TRAFFIC PSYCHOLOGY AND BEHAVIOUR",
+        "venue":"Transp. Res. F: Traffic Psychol. Behav.",
         "domain":"Driving",
         "recommenderType":null,
         "effects":[

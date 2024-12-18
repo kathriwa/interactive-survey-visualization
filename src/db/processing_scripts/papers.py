@@ -68,7 +68,7 @@ assert all(
 
 # Aggregate 'mainDvCategory' column by 'paperId'
 hypotheses = hypotheses.groupby('paperId').agg(
-    {'mainDvCategory': lambda x: sorted(list(set(x)))}).reset_index()
+    {'mainDvCategory': lambda x: sorted(list(set(x)), key = lambda x: x if x != 'Other' else 'zzz')}).reset_index()
 
 
 # Preprocess effectsXuser

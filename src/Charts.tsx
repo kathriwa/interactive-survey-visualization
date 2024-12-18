@@ -10,12 +10,12 @@ const onChange = (key: string) => {
 const items: TabsProps['items'] = [
   {
     key: '1',
-    label: 'Line Chart',
+    label: 'Historical Development',
     children: <LineChart />,
   },
   {
     key: '2',
-    label: 'Bar Chart',
+    label: 'User Characteristics x Effects',
     children: <StackedBarChart />,
   },
 ];
