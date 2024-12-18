@@ -65,7 +65,7 @@
                 "paperId": 64,
                 "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
                 "firstAuthor": "Nelekar, Shreeya ",
-                "venue": "British Journal of Educational Technology",
+                "venue": "BJET",
                 "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
                 "effectFound": [
                     "Yes"
@@ -159,7 +159,7 @@
                 "paperId": 67,
                 "title": "Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
                 "firstAuthor": "Abdulrahman, Amal",
-                "venue": "Behaviour & Information Technology",
+                "venue": "Behav. Inf. Technol.",
                 "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2022.2073269",
                 "effectFound": [
                     "No"
@@ -203,7 +203,7 @@
                 "paperId": 157,
                 "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
                 "firstAuthor": "Kouki, Pigi",
-                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "venue": "TiiS",
                 "url": "https://doi.org/10.1145/3365843",
                 "effectFound": [
                     "Yes"
@@ -247,7 +247,7 @@
                 "paperId": 64,
                 "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
                 "firstAuthor": "Nelekar, Shreeya ",
-                "venue": "British Journal of Educational Technology",
+                "venue": "BJET",
                 "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
                 "effectFound": [
                     "Yes"
@@ -263,7 +263,7 @@
                 "paperId": 67,
                 "title": "Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
                 "firstAuthor": "Abdulrahman, Amal",
-                "venue": "Behaviour & Information Technology",
+                "venue": "Behav. Inf. Technol.",
                 "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2022.2073269",
                 "effectFound": [
                     "No",
@@ -852,7 +852,7 @@
                 "paperId": 157,
                 "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
                 "firstAuthor": "Kouki, Pigi",
-                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "venue": "TiiS",
                 "url": "https://doi.org/10.1145/3365843",
                 "effectFound": [
                     "No"
@@ -919,7 +919,7 @@
                 "paperId": 157,
                 "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
                 "firstAuthor": "Kouki, Pigi",
-                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "venue": "TiiS",
                 "url": "https://doi.org/10.1145/3365843",
                 "effectFound": [
                     "No"
@@ -968,7 +968,7 @@
                 "paperId": 178,
                 "title": "Interactive recommending with Tag-Enhanced Matrix Factorization (TagMF)",
                 "firstAuthor": "Loepp, B.",
-                "venue": "INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES",
+                "venue": "IJHC",
                 "url": "https://doi.org/10.1016/j.ijhcs.2018.05.002",
                 "effectFound": [
                     "Yes"
@@ -1148,7 +1148,7 @@
                 "paperId": 64,
                 "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
                 "firstAuthor": "Nelekar, Shreeya ",
-                "venue": "British Journal of Educational Technology",
+                "venue": "BJET",
                 "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
                 "effectFound": [
                     "Yes"
@@ -1164,7 +1164,7 @@
                 "paperId": 67,
                 "title": "Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
                 "firstAuthor": "Abdulrahman, Amal",
-                "venue": "Behaviour & Information Technology",
+                "venue": "Behav. Inf. Technol.",
                 "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2022.2073269",
                 "effectFound": [
                     "No"
@@ -1287,7 +1287,7 @@
                 "paperId": 64,
                 "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
                 "firstAuthor": "Nelekar, Shreeya ",
-                "venue": "British Journal of Educational Technology",
+                "venue": "BJET",
                 "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
                 "effectFound": [
                     "No"
@@ -1328,7 +1328,7 @@
                 "paperId": 99,
                 "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
                 "firstAuthor": "Ma, Boxuan",
-                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "venue": "TELRP",
                 "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
                 "effectFound": [
                     "Yes"
@@ -1371,7 +1371,7 @@
                 "paperId": 99,
                 "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
                 "firstAuthor": "Ma, Boxuan",
-                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "venue": "TELRP",
                 "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
                 "effectFound": [
                     "Yes"
@@ -1417,7 +1417,7 @@
                 "paperId": 169,
                 "title": "Social Choice-based Explanations: An Approach to Enhancing Fairness and Consensus Aspects",
                 "firstAuthor": "Tran, Thi Ngoc Trang",
-                "venue": "Journal of Universal Computer Science",
+                "venue": "JUCS",
                 "url": "https://pdfs.semanticscholar.org/2b4f/ddb49f00b60980fa6cc96f6ef4f4d27ad719.pdf",
                 "effectFound": [
                     "Yes"
@@ -1433,7 +1433,7 @@
                 "paperId": 99,
                 "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
                 "firstAuthor": "Ma, Boxuan",
-                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "venue": "TELRP",
                 "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
                 "effectFound": [
                     "Yes"
@@ -1480,7 +1480,7 @@
                 "paperId": 99,
                 "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
                 "firstAuthor": "Ma, Boxuan",
-                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "venue": "TELRP",
                 "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
                 "effectFound": [
                     "No"
@@ -1542,7 +1542,7 @@
                 "paperId": 99,
                 "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
                 "firstAuthor": "Ma, Boxuan",
-                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "venue": "TELRP",
                 "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
                 "effectFound": [
                     "No"
@@ -1585,7 +1585,7 @@
                 "paperId": 99,
                 "title": "CourseQ: the impact of visual and interactive course recommendation in university environments",
                 "firstAuthor": "Ma, Boxuan",
-                "venue": "Research and Practice in Technology Enhanced Learning volume",
+                "venue": "TELRP",
                 "url": "https://telrp.springeropen.com/articles/10.1186/s41039-021-00167-7",
                 "effectFound": [
                     "Yes"
@@ -1795,7 +1795,7 @@
                 "paperId": 127,
                 "title": "When E-Commerce Personalization Systems Show and Tell: Investigating the Relative Persuasive Appeal of Content-Based versus Collaborative Filtering",
                 "firstAuthor": "Liao, Mengqi",
-                "venue": "Journal of Advertising",
+                "venue": "J. Advert.",
                 "url": "https://www.tandfonline.com/doi/full/10.1080/00913367.2021.1887013",
                 "effectFound": [
                     "No"
@@ -2171,7 +2171,7 @@
                 "paperId": 64,
                 "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
                 "firstAuthor": "Nelekar, Shreeya ",
-                "venue": "British Journal of Educational Technology",
+                "venue": "BJET",
                 "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
                 "effectFound": [
                     "Yes"
@@ -2187,7 +2187,7 @@
                 "paperId": 67,
                 "title": "Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
                 "firstAuthor": "Abdulrahman, Amal",
-                "venue": "Behaviour & Information Technology",
+                "venue": "Behav. Inf. Technol.",
                 "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2022.2073269",
                 "effectFound": [
                     "No"
@@ -2205,7 +2205,7 @@
                 "paperId": 157,
                 "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
                 "firstAuthor": "Kouki, Pigi",
-                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "venue": "TiiS",
                 "url": "https://doi.org/10.1145/3365843",
                 "effectFound": [
                     "Yes"
@@ -2249,7 +2249,7 @@
                 "paperId": 157,
                 "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
                 "firstAuthor": "Kouki, Pigi",
-                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "venue": "TiiS",
                 "url": "https://doi.org/10.1145/3365843",
                 "effectFound": [
                     "Yes"
@@ -2291,7 +2291,7 @@
                 "paperId": 67,
                 "title": "Changing users\u2019 health behaviour intentions through an embodied conversational agent delivering explanations based on users\u2019 beliefs and goals",
                 "firstAuthor": "Abdulrahman, Amal",
-                "venue": "Behaviour & Information Technology",
+                "venue": "Behav. Inf. Technol.",
                 "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2022.2073269",
                 "effectFound": [
                     "No"
@@ -2882,7 +2882,7 @@
                 "paperId": 64,
                 "title": "Effectiveness of embodied conversational agents for managing academic stress at an Indian University (ARU) during COVID-19",
                 "firstAuthor": "Nelekar, Shreeya ",
-                "venue": "British Journal of Educational Technology",
+                "venue": "BJET",
                 "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13174",
                 "effectFound": [
                     "Yes"
@@ -3330,7 +3330,7 @@
                 "paperId": 106,
                 "title": "Promoting Energy-Efficient Behavior by Depicting Social Norms in a Recommender Interface",
                 "firstAuthor": "Starke, Alain",
-                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "venue": "TiiS",
                 "url": "https://dl.acm.org/doi/10.1145/3460005",
                 "effectFound": [
                     "Yes"
@@ -3482,7 +3482,7 @@
                 "paperId": 104,
                 "title": "How machine-learning recommendations influence clinician treatment selections: the example of antidepressant selection",
                 "firstAuthor": "Jacobs, Maia",
-                "venue": "Translational Psychiatry",
+                "venue": "Transl. Psychiatry",
                 "url": "https://www.nature.com/articles/s41398-021-01224-x",
                 "effectFound": [
                     "Yes"
@@ -3626,7 +3626,7 @@
                 "paperId": 157,
                 "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
                 "firstAuthor": "Kouki, Pigi",
-                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "venue": "TiiS",
                 "url": "https://doi.org/10.1145/3365843",
                 "effectFound": [
                     "No"
@@ -3715,7 +3715,7 @@
                 "paperId": 157,
                 "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
                 "firstAuthor": "Kouki, Pigi",
-                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "venue": "TiiS",
                 "url": "https://doi.org/10.1145/3365843",
                 "effectFound": [
                     "Yes"
@@ -3947,7 +3947,7 @@
                 "paperId": 178,
                 "title": "Interactive recommending with Tag-Enhanced Matrix Factorization (TagMF)",
                 "firstAuthor": "Loepp, B.",
-                "venue": "INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES",
+                "venue": "IJHC",
                 "url": "https://doi.org/10.1016/j.ijhcs.2018.05.002",
                 "effectFound": [
                     "Yes"
@@ -4184,7 +4184,7 @@
                 "paperId": 157,
                 "title": "Generating and Understanding Personalized Explanations in Hybrid Recommender Systems",
                 "firstAuthor": "Kouki, Pigi",
-                "venue": "ACM Transactions on Interactive Intelligent Systems",
+                "venue": "TiiS",
                 "url": "https://doi.org/10.1145/3365843",
                 "effectFound": [
                     "No",
