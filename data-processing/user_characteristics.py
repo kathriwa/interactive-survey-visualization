@@ -9,8 +9,8 @@ def flatten(xss):
 
 # Load df from csv files
 effectsXuser = pd.read_csv(
-    "../original_data/survey-data - [TORS] Effects x User.csv")
-papers = pd.read_csv("../original_data/survey-data - Main Sheet.csv")
+    "original_data/survey-data - [TORS] Effects x User.csv")
+papers = pd.read_csv("original_data/survey-data - Main Sheet.csv")
 
 # Isolate relevant columns
 effectsXuser = effectsXuser[['Paper ID', 'Measured Effect (main category)',
@@ -133,5 +133,5 @@ for row in effectsXuserAgg.to_dict(orient='records'):
     dict_list.append(row)
 
 # Write to file
-with open('../characteristics_effects.json', 'w') as f:
+with open('../public/characteristics_effects.json', 'w') as f:
     json.dump(dict_list, f, indent=4)

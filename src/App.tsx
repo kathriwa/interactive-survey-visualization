@@ -11,10 +11,10 @@ import { Layout, Menu, theme } from 'antd';
 
 const { Content, Footer, Sider } = Layout;
 
-import Home from './Home';
-import MyTable from './Table';
-import MyPlot from './Charts';
-import Papers from './Papers';
+import Home from './pages/Home';
+import MyTable from './pages/Table';
+import MyPlot from './pages/Charts';
+import Papers from './pages/Papers';
 
 
 const items = [

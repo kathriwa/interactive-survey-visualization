@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 df = pd.read_csv(
-    "../original_data/survey-data - [TORS] Effects x User.csv")
+    "original_data/survey-data - [TORS] Effects x User.csv")
 
 
 effects = ['effectiveness', 'efficiency', 'perceived explanation quality',
@@ -54,5 +54,5 @@ for i, effect in enumerate(effects):
     })
 
 
-with open('../bar_chart_data.json', 'w') as file:
+with open('../public/bar_chart_data2.json', 'w') as file:
     json.dump(datasets, file, indent=2)

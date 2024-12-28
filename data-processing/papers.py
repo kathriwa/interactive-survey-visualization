@@ -3,12 +3,12 @@ import numpy as np
 
 
 # Load df from csv files
-papers = pd.read_csv("../original_data/survey-data - Main Sheet.csv")
+papers = pd.read_csv("original_data/survey-data - Main Sheet.csv")
 effectsXuser = pd.read_csv(
-    "../original_data/survey-data - [TORS] Effects x User.csv")
+    "original_data/survey-data - [TORS] Effects x User.csv")
 hypotheses = pd.read_csv(
-    "../original_data/survey-data - Hypotheses (effects of expl).csv")
-modalities = pd.read_csv("../original_data/survey-data - Expl. Modalities.csv")
+    "original_data/survey-data - Hypotheses (effects of expl).csv")
+modalities = pd.read_csv("original_data/survey-data - Expl. Modalities.csv")
 
 # Isolate relevant columns
 papers = papers[['PaperID', 'First author', 'Title', 'Year',
@@ -154,4 +154,4 @@ df.insert(0, 'key', range(1, len(df) + 1))
 # print(df['modalities'].explode().unique())
 # print(df['explainabilityType'].explode().unique())
 
-df.to_json("../papers.json", orient='records', indent=4)
+df.to_json("../public/papers.json", orient='records', indent=4)

@@ -1,6 +1,6 @@
 import { Tabs, TabsProps } from 'antd';
-import LineChart from './charts/LineChart';
-import StackedBarChart from './charts/StackedBarChart';
+import LineChart from '../charts/LineChart';
+import StackedBarChart from '../charts/StackedBarChart';
 
 
 const onChange = (key: string) => {
