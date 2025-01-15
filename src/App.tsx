@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Route, Routes, Link, useLocation } from 'react-router-dom';
 import './index.css';
+import './App.css';
 import {
   DesktopOutlined,
   PieChartOutlined,
@@ -56,6 +57,19 @@ const getCurrentPageKey = (pathname: string) => {
 };
 
 
+const siderStyle: React.CSSProperties = {
+  overflow: 'auto',
+  height: '100vh',
+  position: 'fixed',
+  insetInlineStart: 0,
+  top: 0,
+  bottom: 0,
+  // scrollbarWidth: 'thin',
+  // scrollbarGutter: 'stable',
+};
+
+
+
 const App: React.FC = () => {
   const [collapsed, setCollapsed] = useState(false);
   const location = useLocation();
@@ -85,12 +99,12 @@ const App: React.FC = () => {
 
   return (
       <Layout style={{ minHeight: '100vh', minWidth: '100%'}}>
-        <Sider collapsible collapsed={collapsed} onCollapse={(value) => setCollapsed(value)} theme="light">
+        <Sider collapsible style={siderStyle} collapsed={collapsed} onCollapse={(value) => setCollapsed(value)} theme="light">
           {/* <div className="demo-logo-vertical" /> */}
           <br></br>
-          <Menu defaultSelectedKeys={[currentPageKey]} mode="inline" items={items} />
+          <Menu style={{borderInlineEnd: '0px'}} defaultSelectedKeys={[currentPageKey]} mode="inline" items={items} />
         </Sider>
-        <Layout style={{ padding: '30px 30px 0 30px', width: 'auto'}}>
+        <Layout style={{ padding: '30px 30px 0 30px', width: 'auto', marginInlineStart: collapsed ? 70 : 200, maxWidth: collapsed ? 'calc(100% - 70px)' : 'calc(100% - 200px)', transition: '0.5s' }}>
           <Content>
             <div
               style={{

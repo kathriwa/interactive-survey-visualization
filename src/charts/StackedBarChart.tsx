@@ -60,10 +60,6 @@ const StackedBarChart = () => {
 
   const options = {
     plugins: {
-      // title: {
-      //   display: true,
-      //   text: 'Characteristics-Effects Chart',
-      // },
       legend: {
         labels: {
           filter: (legendItem: any) => {
@@ -76,7 +72,7 @@ const StackedBarChart = () => {
         onClick: legendOnClick
       },
     },
-    responsive: true,
+    // responsive: true,
     scales: {
       x: {
         stacked: true,
@@ -97,7 +93,7 @@ const StackedBarChart = () => {
         },
         min: -15,
         max: 15,
-},
+      },
     },
     animation: {
       duration: 0,
@@ -105,7 +101,7 @@ const StackedBarChart = () => {
   };
 
   return (
-    <div style={{ width: '100%', marginTop: 20 }}>
+    <div>
       <Bar data={data2} options={options} />
     </div>
   )
