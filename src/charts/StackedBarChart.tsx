@@ -119,7 +119,7 @@ const StackedBarChart = () => {
         stacked: true,
         title: {
           display: true,
-          text: '# Papers which found an Effect',
+          text: '# Papers which Found (+) / Not Found (-) an Effect',
           font: {
             size: 14
           }
