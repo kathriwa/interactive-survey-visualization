@@ -71,6 +71,39 @@ const StackedBarChart = () => {
         },
         onClick: legendOnClick
       },
+      tooltip: {
+        xAlign: "center" as "center",
+        callbacks: {
+          label: function(_: any) {
+            return "";
+          },
+          afterTitle: function(tooltipItem: any) {
+            let label = tooltipItem[0].dataset.label;
+            if (label.endsWith('-neg')) {
+              label = label.slice(0, -4);
+            }
+            return `${label}`;
+          },
+          beforeBody: function(tooltipItem: any) {
+            let num = 0;
+            let num_neg = 0;
+            if (tooltipItem[0].dataset.label.endsWith('-neg')) {
+              let label = tooltipItem[0].dataset.label.slice(0, -4);
+              num_neg = -tooltipItem[0].raw;
+              let column_index = tooltipItem[0].dataIndex;
+              num = data2.datasets.filter((item: any) => item.label === label)[0].data[column_index];
+            }
+            else {
+              let label = tooltipItem[0].dataset.label;
+              let label_neg = label + '-neg';
+              num = tooltipItem[0].raw;
+              let column_index = tooltipItem[0].dataIndex;
+              num_neg = -data2.datasets.filter((item: any) => item.label === label_neg)[0].data[column_index];
+            }
+            return `Found:        ${num}\nNot Found: ${num_neg}`;
+          }
+        }
+      }
     },
     // responsive: true,
     scales: {
