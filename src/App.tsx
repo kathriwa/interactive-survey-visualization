@@ -109,6 +109,7 @@ const App: React.FC = () => {
             <div
               style={{
                 padding: 24,
+                paddingTop: 6,
                 minHeight: "100%",
                 background: colorBgContainer,
                 borderRadius: borderRadiusLG,
