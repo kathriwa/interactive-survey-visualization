@@ -1,5 +1,7 @@
 # An Interactive Collection of Explanation Effects and User Characteristics in Recommender Systems
 
+[https://kathriwa.github.io/interactive-survey-visualization/](https://kathriwa.github.io/interactive-survey-visualization/)
+
 Adding explanations to recommender systems is said to have multiple benefits, such as increasing user trust or system transparency. Previous work from other application areas suggests that specific user characteristics impact the users' perception of the explanation. However, we rarely find this type of evaluation for recommender systems explanations.
 
 This site accompanies the survey paper "Whom do explanations serve? A Systematic Literature Survey of User Characteristics in Explainable Recommender Systems Evaluation” ([link](https://arxiv.org/abs/2412.14193)) which addresses this gap by surveying 124 papers in which recommender systems explanations were evaluated in user studies.
