@@ -451,6 +451,7 @@ const columns2: TableProps<DataType2>['columns'] = [
     title: 'Modality',
     dataIndex: 'modality',
     key: 'modality',
+    render: (recommenderType: Array<string>) => recommenderType.join(', '),
   },
   {
     title: 'Explainability Type',
