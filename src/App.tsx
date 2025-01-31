@@ -124,7 +124,7 @@ const App: React.FC = () => {
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
-            Literature Review ©{new Date().getFullYear()} Created at the University of Zürich
+            Interactive Survey Visualization ©{new Date().getFullYear()} Created at the University of Zürich
           </Footer>
         </Layout>
       </Layout>
