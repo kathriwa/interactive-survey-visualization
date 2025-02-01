@@ -2,6 +2,7 @@ import { Tabs, TabsProps } from 'antd';
 import LineChart from '../charts/LineChart';
 import StackedBarChart from '../charts/StackedBarChart';
 
+// Set up the chart tabs
 const items: TabsProps['items'] = [
   {
     key: '1',

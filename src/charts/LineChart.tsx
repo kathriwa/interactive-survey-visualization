@@ -6,6 +6,7 @@ import { interpolateRainbow } from 'd3-scale-chromatic';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
+// Define the data types of the original data and the processed data
 interface DataType {
   key: React.Key;
   firstAuthor: string;
@@ -29,17 +30,19 @@ interface ChartData {
   tension: number;
 }
 
+// Function to interpolate colors
 function interpolateColors(dataLength: number, colorScale: any) {
-  var intervalSize = 1 / dataLength;
-  var colorArray = [];
+  const intervalSize = 1 / dataLength;
+  const colorArray = [];
 
-  for (var i = 0; i < dataLength; i++) {
+  for (let i = 0; i < dataLength; i++) {
     colorArray.push(colorScale((i * intervalSize)));
   }
 
   return colorArray;
 }
 
+// Function to generate chart data from the original data
 const generateChartData = (papers: DataType[], selectedOption: string) => {
   const years = [2017, 2018, 2019, 2020, 2021, 2022];
   const tension = 0.3;
@@ -213,7 +216,7 @@ const LineChart = () => {
   const [data, setData] = useState([]);
   const [selectedOption, setSelectedOption] = useState('effects');
 
-
+  // Fetch the data
   useEffect(() => {
     fetch('./papers.json')
       .then((response) => response.json())
@@ -226,10 +229,6 @@ const LineChart = () => {
 
   const options = {
     plugins: {
-      // title: {
-      //   display: true,
-      //   text: 'Cummulative Chart',
-      // },
       legend: {
         labels: {
           font: {

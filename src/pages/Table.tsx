@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Table, Tag } from 'antd';
 import type { TableProps } from 'antd';
 
+// Define the data type for the table as read from the JSON file
 interface DataType {
   key: React.Key;
   userCharacteristic: string;
@@ -14,6 +15,7 @@ interface DataType {
   level2: Array<DataType2>;
 }
 
+// Define the data type for the nested table as read from the JSON file
 interface DataType2 {
   paperId: React.Key;
   title: string;
@@ -27,6 +29,7 @@ interface DataType2 {
   recommenderType: Array<string>;
 }
 
+// Define the columns for the table
 const columns: TableProps<DataType>['columns'] = [
   {
     title: 'User Characteristic',
@@ -228,7 +231,7 @@ const columns: TableProps<DataType>['columns'] = [
       return (
         <>
           {effectFound.map((effect) => {
-            let color = effect === 'Yes' ? 'green' : 'red';
+            const color = effect === 'Yes' ? 'green' : 'red';
             return (
               <Tag color={color} key={effect}>
                 {effect}
@@ -407,6 +410,7 @@ const columns: TableProps<DataType>['columns'] = [
   }
 ];
 
+// Define the columns for the nested table
 const columns2: TableProps<DataType2>['columns'] = [
   {
     title: 'Title',
@@ -431,7 +435,7 @@ const columns2: TableProps<DataType2>['columns'] = [
       return (
         <>
           {effectFound.map((effect) => {
-            let color = effect === 'Yes' ? 'green' : 'red';
+            const color = effect === 'Yes' ? 'green' : 'red';
             return (
               <Tag color={color} key={effect}>
                 {effect}
@@ -479,6 +483,7 @@ const columns2: TableProps<DataType2>['columns'] = [
 const MyTable: React.FC = () => {
   const [data, setData] = useState<DataType[]>([]);
 
+  // Fetch the data from the JSON file
   useEffect(() => {
     fetch('./characteristics_effects.json')
       .then((response) => response.json())

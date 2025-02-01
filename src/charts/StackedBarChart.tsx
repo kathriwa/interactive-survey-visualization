@@ -1,24 +1,10 @@
 import { Bar } from 'react-chartjs-2';
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend,
-} from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
 import { useEffect, useState } from 'react';
 
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend,
-);
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
+// Define the data types of the original data and the processed data
 interface BarChartData {
   label: string;
   data: number[];
@@ -28,6 +14,7 @@ interface BarChartData {
 const StackedBarChart = () => {
   const [data, setData] = useState<BarChartData[]>([]);
 
+  // Fetch the data
   useEffect(() => {
     fetch('./bar_chart_data.json')
       .then((response) => response.json())
@@ -38,10 +25,9 @@ const StackedBarChart = () => {
     labels: ['Age', 'Agreeableness', 'Conscientiousness', 'Country of Residence', 'Decision-Making Strategy', 'Domain Knowledge', 'Extraversion', 'Gender', 'Level of Education', 'Need for Cognition', 'Neuroticism', 'Openness', 'Personal Innovativeness', 'Propensity to Trust Others', 'Rationality', 'Social Awareness', 'Technical Expertise', 'Trust in Technology', 'Valence', 'Visualization Literacy'],
     datasets: data,
   };
-  console.log(data2);
 
 
-  // create a custom onClick function for the legend
+  // Create a custom onClick function for the legend
   const legendOnClick = (_: any, legendItem: any, legend: any) => {
     console.log(legendItem);
     console.log(legend)
@@ -58,6 +44,7 @@ const StackedBarChart = () => {
     }
   }
 
+  // Define the options for the chart
   const options = {
     plugins: {
       legend: {
@@ -88,16 +75,16 @@ const StackedBarChart = () => {
             let num = 0;
             let num_neg = 0;
             if (tooltipItem[0].dataset.label.endsWith('-neg')) {
-              let label = tooltipItem[0].dataset.label.slice(0, -4);
+              const label = tooltipItem[0].dataset.label.slice(0, -4);
               num_neg = -tooltipItem[0].raw;
-              let column_index = tooltipItem[0].dataIndex;
+              const column_index = tooltipItem[0].dataIndex;
               num = data2.datasets.filter((item: any) => item.label === label)[0].data[column_index];
             }
             else {
-              let label = tooltipItem[0].dataset.label;
-              let label_neg = label + '-neg';
+              const label = tooltipItem[0].dataset.label;
+              const label_neg = label + '-neg';
               num = tooltipItem[0].raw;
-              let column_index = tooltipItem[0].dataIndex;
+              const column_index = tooltipItem[0].dataIndex;
               num_neg = -data2.datasets.filter((item: any) => item.label === label_neg)[0].data[column_index];
             }
             return `Found:        ${num}\nNot Found: ${num_neg}`;

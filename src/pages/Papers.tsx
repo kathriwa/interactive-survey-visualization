@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Table } from 'antd';
 import type { TableProps } from 'antd';
 
+// Define the data type for the table as read from the JSON file
 interface DataType {
   key: React.Key;
   firstAuthor: string;
@@ -16,6 +17,7 @@ interface DataType {
   explainabilityType: Array<string>;
 }
 
+// Define the columns for the table
 const columns: TableProps<DataType>['columns'] = [
   {
         title: 'Title',
@@ -466,6 +468,7 @@ const columns: TableProps<DataType>['columns'] = [
 const Papers: React.FC = () => {
   const [data, setData] = useState<DataType[]>([]);
 
+  // Fetch the data from the JSON file
   useEffect(() => {
     // fetch('/src/db/papers.json')
     fetch('./papers.json')
